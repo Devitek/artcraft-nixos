@@ -12,6 +12,7 @@ Format inspired by [MADR](https://adr.github.io/madr/).
 | [0005](0005-release-automation.md) | Auto-merge update PRs + release-please (SemVer) | Accepted |
 | [0006](0006-runtime-deps-wrapper.md) | Provide dlopen'd runtime libs via a wrapper | Accepted |
 | [0007](0007-dev-environment.md) | Reproducible dev env via flake devShell (not devbox) | Accepted |
+| [0008](0008-renovate-github-actions.md) | Renovate keeps the GitHub Actions up to date | Accepted |
 
 ## Template
 
