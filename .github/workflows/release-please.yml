@@ -1,0 +1,25 @@
+name: release-please
+
+# Cut SemVer releases from Conventional Commits. The schedule ensures release PRs
+# are still produced when only bot (GITHUB_TOKEN) merges happened, since those do
+# not emit a `push` event that triggers workflows.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: googleapis/release-please-action@v4
+        with:
+          token: ${{ secrets.ARTCRAFT_BOT_TOKEN || secrets.GITHUB_TOKEN }}
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
