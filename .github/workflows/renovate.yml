@@ -38,6 +38,7 @@ jobs:
         env:
           RENOVATE_REPOSITORIES: ${{ github.repository }}
           RENOVATE_PLATFORM: github
+          RENOVATE_GIT_AUTHOR: "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
           LOG_LEVEL: ${{ inputs.logLevel || 'info' }}
           # `force: true` clears the schedule for this run so PRs are created now.
           RENOVATE_FORCE: ${{ inputs.force && '{"schedule":null}' || '{}' }}

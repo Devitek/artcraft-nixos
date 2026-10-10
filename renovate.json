@@ -27,6 +27,16 @@
       ],
       "automerge": true,
       "platformAutomerge": true
+    },
+    {
+      "description": "We pin the Ubuntu runner ourselves (see ADR-0008); Renovate must not bump it.",
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchDepNames": [
+        "ubuntu"
+      ],
+      "enabled": false
     }
   ]
 }
