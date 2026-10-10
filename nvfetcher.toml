@@ -1,0 +1,123 @@
+# nvfetcher tracks the latest GitHub release of each app and records the
+# per-arch tarball hash into _sources/generated.{json,nix}.
+# One entry per (app, arch). Regenerate with: nvfetcher -c nvfetcher.toml
+
+[photocraft-x86_64-linux]
+src.github = "storytold/photocraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/photocraft/releases/download/v$ver/photocraft-$ver-linux-x86_64.tar.gz"
+
+[photocraft-aarch64-linux]
+src.github = "storytold/photocraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/photocraft/releases/download/v$ver/photocraft-$ver-linux-aarch64.tar.gz"
+
+[vectorcraft-x86_64-linux]
+src.github = "storytold/vectorcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/vectorcraft/releases/download/v$ver/vectorcraft-$ver-linux-x86_64.tar.gz"
+
+[vectorcraft-aarch64-linux]
+src.github = "storytold/vectorcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/vectorcraft/releases/download/v$ver/vectorcraft-$ver-linux-aarch64.tar.gz"
+
+[filmcraft-x86_64-linux]
+src.github = "storytold/filmcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/filmcraft/releases/download/v$ver/filmcraft-$ver-linux-x86_64.tar.gz"
+
+[filmcraft-aarch64-linux]
+src.github = "storytold/filmcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/filmcraft/releases/download/v$ver/filmcraft-$ver-linux-aarch64.tar.gz"
+
+[lightcraft-x86_64-linux]
+src.github = "storytold/lightcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/lightcraft/releases/download/v$ver/lightcraft-$ver-linux-x86_64.tar.gz"
+
+[lightcraft-aarch64-linux]
+src.github = "storytold/lightcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/lightcraft/releases/download/v$ver/lightcraft-$ver-linux-aarch64.tar.gz"
+
+[pdfcraft-x86_64-linux]
+src.github = "storytold/pdfcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/pdfcraft/releases/download/v$ver/pdfcraft-$ver-linux-x86_64.tar.gz"
+
+[pdfcraft-aarch64-linux]
+src.github = "storytold/pdfcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/pdfcraft/releases/download/v$ver/pdfcraft-$ver-linux-aarch64.tar.gz"
+
+[effectcraft-x86_64-linux]
+src.github = "storytold/effectcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/effectcraft/releases/download/v$ver/effectcraft-$ver-linux-x86_64.tar.gz"
+
+[effectcraft-aarch64-linux]
+src.github = "storytold/effectcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/effectcraft/releases/download/v$ver/effectcraft-$ver-linux-aarch64.tar.gz"
+
+[designcraft-x86_64-linux]
+src.github = "storytold/designcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/designcraft/releases/download/v$ver/designcraft-$ver-linux-x86_64.tar.gz"
+
+[designcraft-aarch64-linux]
+src.github = "storytold/designcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/designcraft/releases/download/v$ver/designcraft-$ver-linux-aarch64.tar.gz"
+
+[gridcraft-x86_64-linux]
+src.github = "storytold/gridcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/gridcraft/releases/download/v$ver/gridcraft-$ver-linux-x86_64.tar.gz"
+
+[gridcraft-aarch64-linux]
+src.github = "storytold/gridcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/gridcraft/releases/download/v$ver/gridcraft-$ver-linux-aarch64.tar.gz"
+
+[wordcraft-x86_64-linux]
+src.github = "storytold/wordcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/wordcraft/releases/download/v$ver/wordcraft-$ver-linux-x86_64.tar.gz"
+
+[wordcraft-aarch64-linux]
+src.github = "storytold/wordcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/wordcraft/releases/download/v$ver/wordcraft-$ver-linux-aarch64.tar.gz"
+
+[deckcraft-x86_64-linux]
+src.github = "storytold/deckcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/deckcraft/releases/download/v$ver/deckcraft-$ver-linux-x86_64.tar.gz"
+
+[deckcraft-aarch64-linux]
+src.github = "storytold/deckcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/deckcraft/releases/download/v$ver/deckcraft-$ver-linux-aarch64.tar.gz"
+
+[cadcraft-x86_64-linux]
+src.github = "storytold/cadcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/cadcraft/releases/download/v$ver/cadcraft-$ver-linux-x86_64.tar.gz"
+
+[cadcraft-aarch64-linux]
+src.github = "storytold/cadcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/cadcraft/releases/download/v$ver/cadcraft-$ver-linux-aarch64.tar.gz"
+
+[soundcraft-x86_64-linux]
+src.github = "storytold/soundcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/soundcraft/releases/download/v$ver/soundcraft-$ver-linux-x86_64.tar.gz"
+
+[soundcraft-aarch64-linux]
+src.github = "storytold/soundcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/soundcraft/releases/download/v$ver/soundcraft-$ver-linux-aarch64.tar.gz"

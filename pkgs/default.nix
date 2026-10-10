@@ -1,8 +1,9 @@
 # Builds the set of ArtCraft app packages available for `pkgs.system`.
 #
-# Each app is a thin instantiation of ./mk-craft-app.nix with its pinned source
-# (./sources.nix) and metadata (./metadata.nix). Only apps that publish an artifact
-# for the current system are exposed.
+# Sources (version + per-arch tarball url & hash) come from nvfetcher's
+# `_sources/generated.nix`, keyed by `<app>-<system>`. Metadata lives in
+# ./metadata.nix. Only apps that publish an artifact for the current system are
+# exposed, so every attribute in the result builds on that system.
 { pkgs }:
 
 let
@@ -10,22 +11,22 @@ let
   inherit (pkgs.stdenv.hostPlatform) system;
 
   metadata = import ./metadata.nix;
-  sources = import ./sources.nix;
+  sources = pkgs.callPackage ../_sources/generated.nix { };
   mkCraftApp = pkgs.callPackage ./mk-craft-app.nix { };
 
-  hasArtifact = name: (sources ? ${name}) && (sources.${name}.srcs ? ${system});
+  keyFor = name: "${name}-${system}";
+  hasArtifact = name: sources ? ${keyFor name};
 
   buildApp =
     name:
     let
-      source = sources.${name};
-      srcInfo = source.srcs.${system};
+      entry = sources.${keyFor name};
     in
     mkCraftApp {
       pname = name;
-      inherit (source) version;
+      inherit (entry) version src;
       description = metadata.${name}.description;
-      src = pkgs.fetchurl { inherit (srcInfo) url hash; };
+      extraLibs = (metadata.${name}.extraLibs or (_: [ ])) pkgs;
     };
 
   names = builtins.filter hasArtifact (builtins.attrNames metadata);
