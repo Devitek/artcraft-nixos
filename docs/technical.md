@@ -86,6 +86,9 @@ for the current system — so every exposed attribute builds on that system.
   [ADR-0005](adr/0005-release-automation.md)).
 - **release-please.yml**: SemVer tags, GitHub Releases and `CHANGELOG.md` from
   Conventional Commits.
+- **renovate.yml**: weekly, keeps the GitHub Actions `uses:` pins current
+  (auto-merges low-risk bumps when CI is green). Runners are pinned to
+  `ubuntu-24.04`. See [ADR-0008](adr/0008-renovate-github-actions.md).
 
 ### Token note
 

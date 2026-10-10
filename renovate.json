@@ -1,0 +1,32 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":dependencyDashboard"
+  ],
+  "enabledManagers": [
+    "github-actions"
+  ],
+  "semanticCommits": "enabled",
+  "semanticCommitType": "ci",
+  "semanticCommitScope": "deps",
+  "schedule": [
+    "before 6am on monday"
+  ],
+  "packageRules": [
+    {
+      "description": "Group GitHub Actions bumps; auto-merge low-risk ones (CI is the gate). Majors open a PR for review.",
+      "matchManagers": [
+        "github-actions"
+      ],
+      "groupName": "github actions",
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "digest"
+      ],
+      "automerge": true,
+      "platformAutomerge": true
+    }
+  ]
+}
