@@ -12,7 +12,10 @@
   makeWrapper,
   libxkbcommon,
   wayland,
-  xorg,
+  libx11,
+  libxcb,
+  libxcursor,
+  libxi,
   vulkan-loader,
   libGL,
   addDriverRunpath,
@@ -37,10 +40,10 @@ let
     stdenv.cc.cc.lib
     libxkbcommon
     wayland
-    xorg.libX11
-    xorg.libxcb
-    xorg.libXcursor
-    xorg.libXi
+    libx11
+    libxcb
+    libxcursor
+    libxi
     vulkan-loader
     libGL
   ]
