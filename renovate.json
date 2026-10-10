@@ -7,9 +7,7 @@
   "enabledManagers": [
     "github-actions"
   ],
-  "semanticCommits": "enabled",
-  "semanticCommitType": "ci",
-  "semanticCommitScope": "deps",
+  "commitMessagePrefix": "ci(deps):",
   "schedule": [
     "before 6am on monday"
   ],
