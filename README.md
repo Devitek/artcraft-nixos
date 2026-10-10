@@ -107,6 +107,25 @@ new versions and hashes, verifies the packages build, and opens an auto-merging 
 See [docs/technical.md](docs/technical.md) and
 [ADR-0003](docs/adr/0003-update-mechanism.md).
 
+## Troubleshooting
+
+### `HTTP error 403` when fetching the flake
+
+```
+unable to download 'https://api.github.com/repos/devitek/artcraft-nixos/commits/HEAD': HTTP error 403
+"... organization forbids access via a fine-grained personal access tokens if the token's lifetime is greater than 366 days"
+```
+
+This is **not** a problem with this (public) flake — your local Nix is sending a
+GitHub token that the org rejects. The repo needs no token to consume. Fixes:
+
+- Stopgap, fetch without a token:
+  `nix run --option access-tokens '' github:devitek/artcraft-nixos#photocraft`
+- Or fetch over git instead of the REST API:
+  `nix run 'git+https://github.com/devitek/artcraft-nixos#photocraft'`
+- Proper fix: recreate your fine-grained PAT with a lifetime **≤ 366 days** and
+  update your Nix `access-tokens` (`~/.config/nix/nix.conf` or your NixOS config).
+
 ## Documentation
 
 - [Functional overview](docs/functional.md)

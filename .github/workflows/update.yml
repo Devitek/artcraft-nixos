@@ -29,6 +29,17 @@ jobs:
           extra_nix_config: |
             experimental-features = nix-command flakes
 
+      # Fail loudly if the write token cannot reach the API (expired PAT, or the
+      # org's ">366 days" fine-grained-PAT policy). Otherwise a no-op run looks
+      # green while the PR/release path would 403 on the next real bump.
+      - name: Preflight — write token can reach the API
+        env:
+          GH_TOKEN: ${{ secrets.ARTCRAFT_BOT_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Using ${{ secrets.ARTCRAFT_BOT_TOKEN && 'ARTCRAFT_BOT_TOKEN' || 'GITHUB_TOKEN' }}"
+          gh api "repos/${{ github.repository }}" --jq '.full_name' \
+            || { echo "::error::The write token cannot access the GitHub API (expired, or Devitek forbids fine-grained PATs >366 days). See docs/adr/0005."; exit 1; }
+
       - name: Refresh sources via nvfetcher
         id: refresh
         env:
