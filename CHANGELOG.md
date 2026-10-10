@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.2](https://github.com/Devitek/artcraft-nixos/compare/v0.1.1...v0.1.2) (2026-10-10)
+
+
+### Dependencies / version bumps
+
+* **deps:** update actions/checkout action to v7 ([#31](https://github.com/Devitek/artcraft-nixos/issues/31)) ([a5088e0](https://github.com/Devitek/artcraft-nixos/commit/a5088e037ad0b8da70c53f86c1254733908a97b6))
+
+
+### Documentation
+
+* simplify the 403 troubleshooting to the git+https URL ([#23](https://github.com/Devitek/artcraft-nixos/issues/23)) ([a24e07f](https://github.com/Devitek/artcraft-nixos/commit/a24e07f84cec071f290b9aaebfa0cb2b7f9502d3))
+
 ## [0.1.1](https://github.com/Devitek/artcraft-nixos/compare/v0.1.0...v0.1.1) (2026-10-10)
 
 
