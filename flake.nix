@@ -51,8 +51,9 @@
       # nixpkgs overlay: adds `pkgs.artcraft.<app>`.
       overlays.default = import ./nix/overlay.nix;
 
-      # System integration module.
+      # System / per-user integration modules.
       nixosModules.default = import ./nix/nixos-module.nix;
+      homeManagerModules.default = import ./nix/hm-module.nix;
 
       checks = forAllSystems (
         { pkgs, system }:
@@ -102,8 +103,43 @@
               else
                 "echo 'photocraft missing from systemPackages' >&2; exit 1"
             );
+
+          # Evaluate the Home Manager module in isolation (no home-manager input
+          # needed): stub home.packages and assert a selected app lands in it.
+          hmEval =
+            let
+              eval = lib.evalModules {
+                specialArgs = { inherit pkgs; };
+                modules = [
+                  ./nix/hm-module.nix
+                  {
+                    options.home.packages = lib.mkOption {
+                      type = lib.types.listOf lib.types.package;
+                      default = [ ];
+                    };
+                  }
+                  {
+                    programs.artcraft = {
+                      enable = true;
+                      apps = [ "photocraft" ];
+                    };
+                  }
+                ];
+              };
+              ok = builtins.any (p: (p.pname or "") == "photocraft") eval.config.home.packages;
+            in
+            pkgs.runCommand "home-manager-module-eval" { } (
+              if ok then
+                "echo 'photocraft present in home.packages' > \"$out\""
+              else
+                "echo 'photocraft missing from home.packages' >&2; exit 1"
+            );
         in
-        smoke // { nixos-module = nixosEval; }
+        smoke
+        // {
+          nixos-module = nixosEval;
+          home-manager-module = hmEval;
+        }
       );
 
       # Reproducible development shell: Nix tooling + updater + linters.
