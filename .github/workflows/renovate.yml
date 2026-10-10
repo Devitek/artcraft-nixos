@@ -13,6 +13,10 @@ on:
         description: Renovate log level
         default: info
         required: false
+      force:
+        description: Ignore the schedule and create branches/PRs now
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -35,3 +39,5 @@ jobs:
           RENOVATE_REPOSITORIES: ${{ github.repository }}
           RENOVATE_PLATFORM: github
           LOG_LEVEL: ${{ inputs.logLevel || 'info' }}
+          # `force: true` clears the schedule for this run so PRs are created now.
+          RENOVATE_FORCE: ${{ inputs.force && '{"schedule":null}' || '{}' }}
