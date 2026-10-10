@@ -24,6 +24,8 @@
   src,
   description ? "An ArtCraft creative-suite application",
   mainProgram ? pname,
+  # Extra libraries some apps link/dlopen (e.g. alsa-lib for the audio-capable ones).
+  extraLibs ? [ ],
   extraMeta ? { },
 }:
 
@@ -41,7 +43,8 @@ let
     xorg.libXi
     vulkan-loader
     libGL
-  ];
+  ]
+  ++ extraLibs;
 in
 stdenv.mkDerivation {
   inherit pname version src;

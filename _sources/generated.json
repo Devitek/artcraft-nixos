@@ -1,0 +1,362 @@
+{
+    "cadcraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "cadcraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-cFi9+iwCZsSZhovGA5DLok6Raqb85m7VghNiwFMNhjc=",
+            "type": "url",
+            "url": "https://github.com/storytold/cadcraft/releases/download/v0.4.0/cadcraft-0.4.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.4.0"
+    },
+    "cadcraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "cadcraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-3lteYfsVfxrlSuCjk7V+hs0cNU/qiwhSkokPqiEM93g=",
+            "type": "url",
+            "url": "https://github.com/storytold/cadcraft/releases/download/v0.4.0/cadcraft-0.4.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.4.0"
+    },
+    "deckcraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "deckcraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-aHEnr5N87zWyLICEhuUyAu+AvviN15PvSK8tpyVH0+I=",
+            "type": "url",
+            "url": "https://github.com/storytold/deckcraft/releases/download/v0.4.0/deckcraft-0.4.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.4.0"
+    },
+    "deckcraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "deckcraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-1gdw8NbaiH/tXHaYP0kABG2H3X+9aWVKMiBJF4lLIs4=",
+            "type": "url",
+            "url": "https://github.com/storytold/deckcraft/releases/download/v0.4.0/deckcraft-0.4.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.4.0"
+    },
+    "designcraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "designcraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-CnOANGO+kVOfuIA+jkfzIUakhI8m+zzNYLiCSVaIHwY=",
+            "type": "url",
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.5.0/designcraft-0.5.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.5.0"
+    },
+    "designcraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "designcraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-wknntpTALL+t2HgfbqP1KSbLYj1uWSTYl07WYBnsBWI=",
+            "type": "url",
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.5.0/designcraft-0.5.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.5.0"
+    },
+    "effectcraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "effectcraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-27c4poniPoVcx7Boiavt3bfRQ17IC8Gtpb3LrUnHAdc=",
+            "type": "url",
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.7.0/effectcraft-0.7.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.7.0"
+    },
+    "effectcraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "effectcraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-/+x316LjSdn7AMjruQKvwsuO9UyKLVjdQEurFfW4Q4c=",
+            "type": "url",
+            "url": "https://github.com/storytold/effectcraft/releases/download/v0.7.0/effectcraft-0.7.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.7.0"
+    },
+    "filmcraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "filmcraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-scdYeOkcgMYvqr/4thfc1B/yWgnsQ8R0XxJcr2mWIMQ=",
+            "type": "url",
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.5.0/filmcraft-0.5.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.5.0"
+    },
+    "filmcraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "filmcraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-viGD+YWcATy/Lo3ClSRTJQOj63XiFWr2F71N9/+tQN0=",
+            "type": "url",
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.5.0/filmcraft-0.5.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.5.0"
+    },
+    "gridcraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "gridcraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-pv8l8o2B8gb8hctxiyUf2nffj+ftEmc8NkW5H9MBphY=",
+            "type": "url",
+            "url": "https://github.com/storytold/gridcraft/releases/download/v0.4.0/gridcraft-0.4.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.4.0"
+    },
+    "gridcraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "gridcraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-0k855lr/r1sY6/KkI+8S8FQxttI2qLE0V+e/WOMoMJw=",
+            "type": "url",
+            "url": "https://github.com/storytold/gridcraft/releases/download/v0.4.0/gridcraft-0.4.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.4.0"
+    },
+    "lightcraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "lightcraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-GuSmXzHlM40GOH4pwMHD2NS1l+cuWMdZ4BkDR6miCM0=",
+            "type": "url",
+            "url": "https://github.com/storytold/lightcraft/releases/download/v0.5.0/lightcraft-0.5.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.5.0"
+    },
+    "lightcraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "lightcraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-FkFwuzdFuUz/weBdWbIHeOtRaYVYIk+Ebp4fVCTaMmU=",
+            "type": "url",
+            "url": "https://github.com/storytold/lightcraft/releases/download/v0.5.0/lightcraft-0.5.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.5.0"
+    },
+    "pdfcraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "pdfcraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-J+WLjrrOvKbE5LMRCr0HelysAXCYcinT7Gncs1/LT4Q=",
+            "type": "url",
+            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.5.0/pdfcraft-0.5.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.5.0"
+    },
+    "pdfcraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "pdfcraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-ILNbP9CZwO8Cpye/m6267rZjnFZ0K00ERMwpdNv/X98=",
+            "type": "url",
+            "url": "https://github.com/storytold/pdfcraft/releases/download/v0.5.0/pdfcraft-0.5.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.5.0"
+    },
+    "photocraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "photocraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-6PQKVbOs7ibeuXRCXnwAwR1VBlrn/RhiaFiZUZel2s0=",
+            "type": "url",
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.6.0/photocraft-0.6.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.6.0"
+    },
+    "photocraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "photocraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-tl/XAbY2DTugsFkAR0v5LZkmx2gC/vp76ZZpD8vDlsY=",
+            "type": "url",
+            "url": "https://github.com/storytold/photocraft/releases/download/v0.6.0/photocraft-0.6.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.6.0"
+    },
+    "soundcraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "soundcraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-OK0GAPGj/Ho3LmxBhNg/dtxxugbbbR3ZFN2wc6Rd2XA=",
+            "type": "url",
+            "url": "https://github.com/storytold/soundcraft/releases/download/v0.4.0/soundcraft-0.4.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.4.0"
+    },
+    "soundcraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "soundcraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-Ad51aYJtOQ8+QwCdI3IY30iLKOyjqEV94YLjNBIFLnc=",
+            "type": "url",
+            "url": "https://github.com/storytold/soundcraft/releases/download/v0.4.0/soundcraft-0.4.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.4.0"
+    },
+    "vectorcraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "vectorcraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-GrTtievvt8OG2wN03zMAl/iOaf6vP6j7swyZ0vyP5ak=",
+            "type": "url",
+            "url": "https://github.com/storytold/vectorcraft/releases/download/v0.8.0/vectorcraft-0.8.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.8.0"
+    },
+    "vectorcraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "vectorcraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-SLjmcaQV9d3pEqBJ+CzaBbZvfm/XmoG0WIFv+Rhogs8=",
+            "type": "url",
+            "url": "https://github.com/storytold/vectorcraft/releases/download/v0.8.0/vectorcraft-0.8.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.8.0"
+    },
+    "wordcraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "wordcraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-FogG0f5DyHEgqAGfARO7AXWVacO5sezMjeKsIQvd5O4=",
+            "type": "url",
+            "url": "https://github.com/storytold/wordcraft/releases/download/v0.4.0/wordcraft-0.4.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.4.0"
+    },
+    "wordcraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "wordcraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-hA+YXJj/rrFSqGQhOZ5RuQXWz4vLCALs0mgtfXcjGiY=",
+            "type": "url",
+            "url": "https://github.com/storytold/wordcraft/releases/download/v0.4.0/wordcraft-0.4.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.4.0"
+    }
+}
