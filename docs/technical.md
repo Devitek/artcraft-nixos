@@ -39,7 +39,7 @@ The apps are distributed as pre-built Linux tarballs
    path `/run/opengl-driver/lib` ([ADR-0006](adr/0006-runtime-deps-wrapper.md)).
 
 The dlopen'd set (from upstream `packaging/linux/nfpm.yaml`): `libxkbcommon(+x11)`,
-`wayland`, `xorg.{libX11,libxcb,libXcursor,libXi}`, `vulkan-loader`, `libGL`. The
+`wayland`, `libx11`, `libxcb`, `libxcursor`, `libxi`, `vulkan-loader`, `libGL`. The
 audio-capable apps (`filmcraft`, `effectcraft`, `deckcraft`, `soundcraft`) also link
 `libasound.so.2`, added through the per-app `extraLibs` hook in `metadata.nix`.
 
