@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: ArtCraft upstream (storytold)
+    url: https://github.com/storytold
+    about: This repository only packages the ArtCraft apps for NixOS. Report bugs in the apps themselves upstream.
