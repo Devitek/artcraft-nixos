@@ -1,0 +1,70 @@
+name: update
+
+# Keep the packaged apps in sync with upstream releases. Runs hourly, refreshes
+# _sources/ with nvfetcher, verifies the result builds, and lands a PR.
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.ARTCRAFT_BOT_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - uses: cachix/install-nix-action@v30
+        with:
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+          extra_nix_config: |
+            experimental-features = nix-command flakes
+
+      - name: Refresh sources via nvfetcher
+        id: refresh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          nix develop .#default --command bash scripts/update.sh | tee bumps.md
+          if git diff --quiet -- _sources nvfetcher.toml; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Authoritative quality gate before the PR is allowed to merge.
+      - name: Verify build (nix flake check)
+        if: steps.refresh.outputs.changed == 'true'
+        run: nix flake check -L
+
+      - name: Open and merge PR
+        if: steps.refresh.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.ARTCRAFT_BOT_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          branch="automation/update-$(date -u +%Y%m%dT%H%M%SZ)"
+          git switch -c "$branch"
+          git add _sources nvfetcher.toml
+
+          title="chore(deps): update ArtCraft apps"
+          body="$(cat bumps.md)"
+          rm -f bumps.md
+          git commit -m "$title" -m "$body"
+          git push origin "$branch"
+
+          pr="$(gh pr create --base main --head "$branch" --title "$title" --body "$body")"
+          # Merge now if mergeable; enable auto-merge otherwise.
+          gh pr merge "$pr" --squash --delete-branch --auto \
+            || gh pr merge "$pr" --squash --delete-branch
