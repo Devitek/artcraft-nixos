@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.1](https://github.com/Devitek/artcraft-nixos/compare/v0.1.0...v0.1.1) (2026-10-10)
+
+
+### Bug Fixes
+
+* use renamed top-level X11 libs (drop xorg.* deprecation warnings) ([#21](https://github.com/Devitek/artcraft-nixos/issues/21)) ([4fb03a4](https://github.com/Devitek/artcraft-nixos/commit/4fb03a48b347562af318acd332c73311f1579588))
+
 ## 0.1.0 (2026-10-10)
 
 
