@@ -19,7 +19,22 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - uses: googleapis/release-please-action@v5
+        id: release
         with:
           token: ${{ secrets.ARTCRAFT_BOT_TOKEN || secrets.GITHUB_TOKEN }}
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
+
+      # Don't let the release PR linger: enable native auto-merge so it lands as
+      # soon as CI is green (the PR is authored by the bot token, so CI runs on it).
+      - name: Auto-merge the release PR
+        env:
+          GH_TOKEN: ${{ secrets.ARTCRAFT_BOT_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          num="$(gh pr list --state open --json number,headRefName \
+            --jq '.[] | select(.headRefName | startswith("release-please--branches--")) | .number' | head -1)"
+          if [ -n "$num" ]; then
+            gh pr merge "$num" --squash --auto && echo "auto-merge enabled on #$num"
+          else
+            echo "no open release PR"
+          fi

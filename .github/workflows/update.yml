@@ -4,7 +4,10 @@ name: update
 # _sources/ with nvfetcher, verifies the result builds, and lands a PR.
 on:
   schedule:
-    - cron: "0 * * * *"
+    # Hourly, but off the top of the hour: GitHub heavily delays/drops scheduled
+    # runs queued at minute 0 (peak contention). This is still best-effort — GitHub
+    # does not guarantee on-time scheduled runs — but far more reliable than "0".
+    - cron: "23 * * * *"
   workflow_dispatch:
 
 permissions:

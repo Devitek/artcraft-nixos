@@ -24,6 +24,13 @@ must follow SemVer with a generated changelog.
 - Every change is a PR with a build log and a Conventional Commit, feeding the
   changelog and the knowledge base.
 - The repo settings must allow squash merges and auto-merge.
+- `release-please.yml` enables **native auto-merge on its own release PR** so it
+  lands as soon as CI is green instead of lingering open. Each release therefore
+  captures a reproducible snapshot of the app versions.
+- **Scheduled runs are best-effort.** GitHub heavily delays and drops cron runs
+  queued at minute 0, so `update.yml` runs at minute 23; even so, GitHub does not
+  guarantee exact hourly execution. `release-please.yml` also runs on a schedule as
+  a backstop.
 
 ## Known limitation (and the PAT remedy)
 
