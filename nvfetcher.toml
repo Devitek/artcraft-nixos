@@ -121,3 +121,13 @@ fetch.url = "https://github.com/storytold/soundcraft/releases/download/v$ver/sou
 src.github = "storytold/soundcraft"
 src.prefix = "v"
 fetch.url = "https://github.com/storytold/soundcraft/releases/download/v$ver/soundcraft-$ver-linux-aarch64.tar.gz"
+
+[figcraft-x86_64-linux]
+src.github = "storytold/figcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/figcraft/releases/download/v$ver/figcraft-$ver-linux-x86_64.tar.gz"
+
+[figcraft-aarch64-linux]
+src.github = "storytold/figcraft"
+src.prefix = "v"
+fetch.url = "https://github.com/storytold/figcraft/releases/download/v$ver/figcraft-$ver-linux-aarch64.tar.gz"

@@ -31,6 +31,7 @@ It is **unofficial** and not affiliated with or endorsed by the upstream authors
 | `deckcraft` | storytold/deckcraft | Presentations |
 | `cadcraft` | storytold/cadcraft | CAD |
 | `soundcraft` | storytold/soundcraft | Audio editing |
+| `figcraft` | storytold/figcraft | UI Design / Prototype |
 
 Each app also ships a `*-cli` companion (e.g. `photocraft-cli`); it is installed
 alongside the GUI binary.
