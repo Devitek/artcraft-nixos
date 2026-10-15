@@ -5,7 +5,7 @@
 
 ## Context
 
-Upstream releases are frequent and span 12 apps × 2 architectures (24 artifacts).
+Upstream releases are frequent and span 13 apps × 2 architectures (26 artifacts).
 The repository must always offer the latest versions with correct Nix hashes, with
 minimal human intervention.
 

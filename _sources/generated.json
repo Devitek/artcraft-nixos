@@ -119,6 +119,36 @@
         },
         "version": "0.10.0"
     },
+    "figcraft-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "figcraft-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-G7TCNkyKxRM7UtsU9qExTVgC3x4O6H6PuIk659W2Ncs=",
+            "type": "url",
+            "url": "https://github.com/storytold/figcraft/releases/download/v0.6.0/figcraft-0.6.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.6.0"
+    },
+    "figcraft-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "figcraft-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-tm36aPpe5U4nX5JwFol01Uzb6LH0Mciw6WLLe2uqBmA=",
+            "type": "url",
+            "url": "https://github.com/storytold/figcraft/releases/download/v0.6.0/figcraft-0.6.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.6.0"
+    },
     "filmcraft-aarch64-linux": {
         "cargoLock": null,
         "date": null,
