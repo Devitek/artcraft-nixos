@@ -70,6 +70,22 @@
       sha256 = "sha256-dvv8CprTQ5lwGhjv6xwXhVfQHQoPS0A1FPLaxdiHVy4=";
     };
   };
+  figcraft-aarch64-linux = {
+    pname = "figcraft-aarch64-linux";
+    version = "0.6.0";
+    src = fetchurl {
+      url = "https://github.com/storytold/figcraft/releases/download/v0.6.0/figcraft-0.6.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-G7TCNkyKxRM7UtsU9qExTVgC3x4O6H6PuIk659W2Ncs=";
+    };
+  };
+  figcraft-x86_64-linux = {
+    pname = "figcraft-x86_64-linux";
+    version = "0.6.0";
+    src = fetchurl {
+      url = "https://github.com/storytold/figcraft/releases/download/v0.6.0/figcraft-0.6.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-tm36aPpe5U4nX5JwFol01Uzb6LH0Mciw6WLLe2uqBmA=";
+    };
+  };
   filmcraft-aarch64-linux = {
     pname = "filmcraft-aarch64-linux";
     version = "0.8.0";
