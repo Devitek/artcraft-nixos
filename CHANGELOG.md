@@ -1,5 +1,21 @@
 # Changelog
 
+## [0.1.4](https://github.com/Devitek/artcraft-nixos/compare/v0.1.3...v0.1.4) (2026-10-15)
+
+
+### Features
+
+* **figcraft:** package 0.6.0 ([23b3046](https://github.com/Devitek/artcraft-nixos/commit/23b3046c4564780a889b6d53dc9c383634e2af09))
+
+
+### Dependencies / version bumps
+
+* **deps:** update ArtCraft apps ([#39](https://github.com/Devitek/artcraft-nixos/issues/39)) ([dfb8ff0](https://github.com/Devitek/artcraft-nixos/commit/dfb8ff0a75e59329b1e281f06124b68892e0ab6d))
+* **deps:** update ArtCraft apps ([#41](https://github.com/Devitek/artcraft-nixos/issues/41)) ([8a52173](https://github.com/Devitek/artcraft-nixos/commit/8a52173afa0cae9e3a77cff476d067108ed28f89))
+* **deps:** update ArtCraft apps ([#43](https://github.com/Devitek/artcraft-nixos/issues/43)) ([d0cc44d](https://github.com/Devitek/artcraft-nixos/commit/d0cc44d66dcab2da3b0dadebadcd59807a8c6d67))
+* **deps:** update ArtCraft apps ([#44](https://github.com/Devitek/artcraft-nixos/issues/44)) ([fb8332a](https://github.com/Devitek/artcraft-nixos/commit/fb8332aec2b206004678f1f41b02c8d6cc0267cc))
+* **deps:** update ArtCraft apps ([#45](https://github.com/Devitek/artcraft-nixos/issues/45)) ([094a2cc](https://github.com/Devitek/artcraft-nixos/commit/094a2cccb2c766714d6d782cac347b09de12020a))
+
 ## [0.1.3](https://github.com/Devitek/artcraft-nixos/compare/v0.1.2...v0.1.3) (2026-10-11)
 
 
