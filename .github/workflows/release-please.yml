@@ -27,14 +27,19 @@ jobs:
 
       # Don't let the release PR linger: enable native auto-merge so it lands as
       # soon as CI is green (the PR is authored by the bot token, so CI runs on it).
+      # No checkout in this job: gh must be told the repo explicitly, otherwise
+      # `gh pr list` fails to find .git, returns nothing, and the step exits 0.
       - name: Auto-merge the release PR
         env:
           GH_TOKEN: ${{ secrets.ARTCRAFT_BOT_TOKEN || secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
         run: |
+          set -euo pipefail
           num="$(gh pr list --state open --json number,headRefName \
-            --jq '.[] | select(.headRefName | startswith("release-please--branches--")) | .number' | head -1)"
+            --jq '[.[] | select(.headRefName | startswith("release-please--branches--")) | .number][0] // ""')"
           if [ -n "$num" ]; then
-            gh pr merge "$num" --squash --auto && echo "auto-merge enabled on #$num"
+            gh pr merge "$num" --squash --auto
+            echo "auto-merge enabled on #$num"
           else
             echo "no open release PR"
           fi
