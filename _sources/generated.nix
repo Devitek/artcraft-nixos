@@ -56,18 +56,18 @@
   };
   effectcraft-aarch64-linux = {
     pname = "effectcraft-aarch64-linux";
-    version = "0.10.0";
+    version = "0.11.1";
     src = fetchurl {
-      url = "https://github.com/storytold/effectcraft/releases/download/v0.10.0/effectcraft-0.10.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-lnvlIisuVIC3saB0Pkc3mg+g7wGAF84xsu2kUEavAZs=";
+      url = "https://github.com/storytold/effectcraft/releases/download/v0.11.1/effectcraft-0.11.1-linux-aarch64.tar.gz";
+      sha256 = "sha256-7lBH0PbDq1/GE8GYSt6GIdVikawko0KzNYpsVM7EM/s=";
     };
   };
   effectcraft-x86_64-linux = {
     pname = "effectcraft-x86_64-linux";
-    version = "0.10.0";
+    version = "0.11.1";
     src = fetchurl {
-      url = "https://github.com/storytold/effectcraft/releases/download/v0.10.0/effectcraft-0.10.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-dvv8CprTQ5lwGhjv6xwXhVfQHQoPS0A1FPLaxdiHVy4=";
+      url = "https://github.com/storytold/effectcraft/releases/download/v0.11.1/effectcraft-0.11.1-linux-x86_64.tar.gz";
+      sha256 = "sha256-ucss5o3WZFjMFkQ35DE3bpTjjjPjtlKfqP1F+M+WiTQ=";
     };
   };
   figcraft-aarch64-linux = {
