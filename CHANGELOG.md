@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.8](https://github.com/Devitek/artcraft-nixos/compare/v0.1.7...v0.1.8) (2026-10-18)
+
+
+### Dependencies / version bumps
+
+* **deps:** update ArtCraft apps ([#56](https://github.com/Devitek/artcraft-nixos/issues/56)) ([42d9c10](https://github.com/Devitek/artcraft-nixos/commit/42d9c10ae6f4c58422bfb44cc8fe8f398e95a273))
+
 ## [0.1.7](https://github.com/Devitek/artcraft-nixos/compare/v0.1.6...v0.1.7) (2026-10-18)
 
 
