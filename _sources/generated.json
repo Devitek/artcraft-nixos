@@ -68,11 +68,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-i6KTrnjXbZkGhP5Ac4Lh+Ei9BrkfZZF1k6CJEdfILeE=",
+            "sha256": "sha256-ojL/zYnIQL3Mz8SRHvpDpiEcJtOaNBqRwHUJNZdDm9Q=",
             "type": "url",
-            "url": "https://github.com/storytold/designcraft/releases/download/v0.9.0/designcraft-0.9.0-linux-aarch64.tar.gz"
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.10.0/designcraft-0.10.0-linux-aarch64.tar.gz"
         },
-        "version": "0.9.0"
+        "version": "0.10.0"
     },
     "designcraft-x86_64-linux": {
         "cargoLock": null,
@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-nFeICInWtcOZxFC1Mhumw3yeVOWKwIFh14V6ERXYl1U=",
+            "sha256": "sha256-SjcI+oeNr1GIqiumb9fNGGvzhpCmwVJG7IPYU+De65Q=",
             "type": "url",
-            "url": "https://github.com/storytold/designcraft/releases/download/v0.9.0/designcraft-0.9.0-linux-x86_64.tar.gz"
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.10.0/designcraft-0.10.0-linux-x86_64.tar.gz"
         },
-        "version": "0.9.0"
+        "version": "0.10.0"
     },
     "effectcraft-aarch64-linux": {
         "cargoLock": null,
@@ -128,11 +128,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-pwg4uS/TAjUTuH+GZ+QvitysY0TwHGjTOU1osdeRYDk=",
+            "sha256": "sha256-O4ZHKrUTLPLdToyhblzbkpRuM9KHcb/Hxipu7GOOK78=",
             "type": "url",
-            "url": "https://github.com/storytold/figcraft/releases/download/v0.7.0/figcraft-0.7.0-linux-aarch64.tar.gz"
+            "url": "https://github.com/storytold/figcraft/releases/download/v0.8.0/figcraft-0.8.0-linux-aarch64.tar.gz"
         },
-        "version": "0.7.0"
+        "version": "0.8.0"
     },
     "figcraft-x86_64-linux": {
         "cargoLock": null,
@@ -143,11 +143,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-8932GU0rvVI80xld+Q+izVeC05Rvx4M7f2v4j9o3kI0=",
+            "sha256": "sha256-w1DcWufjDIWgY1epTP32BPKybzpOtje0Tw94v/fDSYU=",
             "type": "url",
-            "url": "https://github.com/storytold/figcraft/releases/download/v0.7.0/figcraft-0.7.0-linux-x86_64.tar.gz"
+            "url": "https://github.com/storytold/figcraft/releases/download/v0.8.0/figcraft-0.8.0-linux-x86_64.tar.gz"
         },
-        "version": "0.7.0"
+        "version": "0.8.0"
     },
     "filmcraft-aarch64-linux": {
         "cargoLock": null,
