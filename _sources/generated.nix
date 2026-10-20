@@ -104,18 +104,18 @@
   };
   gridcraft-aarch64-linux = {
     pname = "gridcraft-aarch64-linux";
-    version = "0.8.0";
+    version = "0.9.0";
     src = fetchurl {
-      url = "https://github.com/storytold/gridcraft/releases/download/v0.8.0/gridcraft-0.8.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-DUyIKs3P1LVyGm3R7HTJjOD7Fg0CMZc6aUddpuyejn0=";
+      url = "https://github.com/storytold/gridcraft/releases/download/v0.9.0/gridcraft-0.9.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-Hb2NbAU/nBTScDhzgJq22C1w+cXvIULQRnM9zj7VqiQ=";
     };
   };
   gridcraft-x86_64-linux = {
     pname = "gridcraft-x86_64-linux";
-    version = "0.8.0";
+    version = "0.9.0";
     src = fetchurl {
-      url = "https://github.com/storytold/gridcraft/releases/download/v0.8.0/gridcraft-0.8.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-SgKeINqGutRnBjOc5FFqIERcExwNgvahFHciCMXYMbM=";
+      url = "https://github.com/storytold/gridcraft/releases/download/v0.9.0/gridcraft-0.9.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-gRSC8uS7ZvjDXVm3nlMuHQgS02K6wk5j/W3cCETWa8k=";
     };
   };
   lightcraft-aarch64-linux = {
@@ -168,18 +168,18 @@
   };
   soundcraft-aarch64-linux = {
     pname = "soundcraft-aarch64-linux";
-    version = "0.8.0";
+    version = "0.10.0";
     src = fetchurl {
-      url = "https://github.com/storytold/soundcraft/releases/download/v0.8.0/soundcraft-0.8.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-YR+EdO8EA9cd/UEVHXoDYxZsPrlwmZ+ZP/7QxYKnNPg=";
+      url = "https://github.com/storytold/soundcraft/releases/download/v0.10.0/soundcraft-0.10.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-/F+8q7bMv6nhPWRZEzKvaTkkKinMYtvFUdAgVKpxL4g=";
     };
   };
   soundcraft-x86_64-linux = {
     pname = "soundcraft-x86_64-linux";
-    version = "0.8.0";
+    version = "0.10.0";
     src = fetchurl {
-      url = "https://github.com/storytold/soundcraft/releases/download/v0.8.0/soundcraft-0.8.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-V6K4d21RiAzuaRGFaKOWwJ+sppSdy/UPGYedcdWW9cw=";
+      url = "https://github.com/storytold/soundcraft/releases/download/v0.10.0/soundcraft-0.10.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-RkGNVv782s0obmppb7Uj9X9UXV8UHEb8crpzc4trbHA=";
     };
   };
   vectorcraft-aarch64-linux = {
