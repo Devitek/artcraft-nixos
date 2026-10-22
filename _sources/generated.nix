@@ -152,18 +152,18 @@
   };
   photocraft-aarch64-linux = {
     pname = "photocraft-aarch64-linux";
-    version = "0.12.0";
+    version = "0.13.0";
     src = fetchurl {
-      url = "https://github.com/storytold/photocraft/releases/download/v0.12.0/photocraft-0.12.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-2rpSLdrEkrluDBN84DIifLG6lD+cw48yPcNz429KRwo=";
+      url = "https://github.com/storytold/photocraft/releases/download/v0.13.0/photocraft-0.13.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-nptGgebs8Ln261X3yk+Wh94VQDVeLxHgxIBS4DNRDbY=";
     };
   };
   photocraft-x86_64-linux = {
     pname = "photocraft-x86_64-linux";
-    version = "0.12.0";
+    version = "0.13.0";
     src = fetchurl {
-      url = "https://github.com/storytold/photocraft/releases/download/v0.12.0/photocraft-0.12.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-+yuDAjDjICoe4Y7CDj9tJQ0naxZdeIEeg+tqdXJfnOI=";
+      url = "https://github.com/storytold/photocraft/releases/download/v0.13.0/photocraft-0.13.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-uvYga1f1U1dvQcyxjG07Er0fOlaTP/Z3XFHlUfMLkUI=";
     };
   };
   soundcraft-aarch64-linux = {
