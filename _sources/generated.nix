@@ -168,18 +168,18 @@
   };
   soundcraft-aarch64-linux = {
     pname = "soundcraft-aarch64-linux";
-    version = "0.13.1";
+    version = "0.14.0";
     src = fetchurl {
-      url = "https://github.com/storytold/soundcraft/releases/download/v0.13.1/soundcraft-0.13.1-linux-aarch64.tar.gz";
-      sha256 = "sha256-D2Mgpz/UH9+dv1wGn8kxJLnghxQaVoV361wbPjGyWew=";
+      url = "https://github.com/storytold/soundcraft/releases/download/v0.14.0/soundcraft-0.14.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-kS7xV4M3U8Xsh8ef5270Kn9ox0b9EXiCy8LI1uHrNX0=";
     };
   };
   soundcraft-x86_64-linux = {
     pname = "soundcraft-x86_64-linux";
-    version = "0.13.1";
+    version = "0.14.0";
     src = fetchurl {
-      url = "https://github.com/storytold/soundcraft/releases/download/v0.13.1/soundcraft-0.13.1-linux-x86_64.tar.gz";
-      sha256 = "sha256-Ce5siEWTT+70u/TFwOLw/8o/yREm/XpqQGGx+DkHRW0=";
+      url = "https://github.com/storytold/soundcraft/releases/download/v0.14.0/soundcraft-0.14.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-L4NQP+2mqiyNS8EsRPVxQixDifxmSpK77QktK/HVAK0=";
     };
   };
   vectorcraft-aarch64-linux = {
