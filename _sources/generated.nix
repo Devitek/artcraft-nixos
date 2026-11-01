@@ -8,210 +8,210 @@
 {
   cadcraft-aarch64-linux = {
     pname = "cadcraft-aarch64-linux";
-    version = "0.15.1";
+    version = "0.16.0";
     src = fetchurl {
-      url = "https://github.com/storytold/cadcraft/releases/download/v0.15.1/cadcraft-0.15.1-linux-aarch64.tar.gz";
-      sha256 = "sha256-j7hOklMjxP3yF/0KRiKOoUJEzG2+Sak4WwMMiqs7F+I=";
+      url = "https://github.com/storytold/cadcraft/releases/download/v0.16.0/cadcraft-0.16.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-M4dtowkdZpiM+sGYpGez4Y57yRwAUuNkFuiGo9sYlts=";
     };
   };
   cadcraft-x86_64-linux = {
     pname = "cadcraft-x86_64-linux";
-    version = "0.15.1";
+    version = "0.16.0";
     src = fetchurl {
-      url = "https://github.com/storytold/cadcraft/releases/download/v0.15.1/cadcraft-0.15.1-linux-x86_64.tar.gz";
-      sha256 = "sha256-0ETw+KdVxrab3GtFNh2rzDQsFOOxkZw59UBp/80cT4A=";
+      url = "https://github.com/storytold/cadcraft/releases/download/v0.16.0/cadcraft-0.16.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-FJggs9Dh5ymiJW40RSO5gFhx057jnJ4IX1B3B/c8y9Q=";
     };
   };
   deckcraft-aarch64-linux = {
     pname = "deckcraft-aarch64-linux";
-    version = "0.13.1";
+    version = "0.14.1";
     src = fetchurl {
-      url = "https://github.com/storytold/deckcraft/releases/download/v0.13.1/deckcraft-0.13.1-linux-aarch64.tar.gz";
-      sha256 = "sha256-/yXQyEaLzdNbZSdgPz5XtHl0HMcN/9EmGsrIP7QdnwM=";
+      url = "https://github.com/storytold/deckcraft/releases/download/v0.14.1/deckcraft-0.14.1-linux-aarch64.tar.gz";
+      sha256 = "sha256-6lZZF0/oAHNv1qnml7EGxN6WL+AJRnB7v4hMI+JuyBw=";
     };
   };
   deckcraft-x86_64-linux = {
     pname = "deckcraft-x86_64-linux";
-    version = "0.13.1";
+    version = "0.14.1";
     src = fetchurl {
-      url = "https://github.com/storytold/deckcraft/releases/download/v0.13.1/deckcraft-0.13.1-linux-x86_64.tar.gz";
-      sha256 = "sha256-cR7AlbWQ+8uqq8jFklqDUN6pjukxq3tE1Ir2iy5h9RQ=";
+      url = "https://github.com/storytold/deckcraft/releases/download/v0.14.1/deckcraft-0.14.1-linux-x86_64.tar.gz";
+      sha256 = "sha256-6Gx/oOy1XxpVPuQluT3P3IBrezeY8nK0Hx0f90rFwSo=";
     };
   };
   designcraft-aarch64-linux = {
     pname = "designcraft-aarch64-linux";
-    version = "0.15.2";
+    version = "0.16.0";
     src = fetchurl {
-      url = "https://github.com/storytold/designcraft/releases/download/v0.15.2/designcraft-0.15.2-linux-aarch64.tar.gz";
-      sha256 = "sha256-20JDgl1T9Jb5K9aHYFSI+NSK76AbpzzvUNyHt5FondA=";
+      url = "https://github.com/storytold/designcraft/releases/download/v0.16.0/designcraft-0.16.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-0NtHFRzyYSMLMYeCip74B8xu3cJ2+FrRfIHV27eAmAA=";
     };
   };
   designcraft-x86_64-linux = {
     pname = "designcraft-x86_64-linux";
-    version = "0.15.2";
+    version = "0.16.0";
     src = fetchurl {
-      url = "https://github.com/storytold/designcraft/releases/download/v0.15.2/designcraft-0.15.2-linux-x86_64.tar.gz";
-      sha256 = "sha256-57eC90ZJd+/pNa1o48kIsJOfO2ZgcMiN8gRhmNxuiUQ=";
+      url = "https://github.com/storytold/designcraft/releases/download/v0.16.0/designcraft-0.16.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-pIb8Q83I8kXtr3N8uxyaMoYO4YqNyhuv4IERAU4vFXY=";
     };
   };
   effectcraft-aarch64-linux = {
     pname = "effectcraft-aarch64-linux";
-    version = "0.19.0";
+    version = "0.20.0";
     src = fetchurl {
-      url = "https://github.com/storytold/effectcraft/releases/download/v0.19.0/effectcraft-0.19.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-klc3Ql0nO5RFw4ZLTcuhFybaiGV8qyDC62FpILJ++sY=";
+      url = "https://github.com/storytold/effectcraft/releases/download/v0.20.0/effectcraft-0.20.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-zcH8u4zCDLoyi4t522n330Wb4yx1GHrAWuITj+S0IFA=";
     };
   };
   effectcraft-x86_64-linux = {
     pname = "effectcraft-x86_64-linux";
-    version = "0.19.0";
+    version = "0.20.0";
     src = fetchurl {
-      url = "https://github.com/storytold/effectcraft/releases/download/v0.19.0/effectcraft-0.19.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-fsk5Ha53X3zn5ykSaPexIzIowbreg87YhAMDU1yVGXA=";
+      url = "https://github.com/storytold/effectcraft/releases/download/v0.20.0/effectcraft-0.20.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-JXMQCgos4HppJXvaf6an1SUtO00y3+86H20slby42iM=";
     };
   };
   figcraft-aarch64-linux = {
     pname = "figcraft-aarch64-linux";
-    version = "0.13.1";
+    version = "0.14.0";
     src = fetchurl {
-      url = "https://github.com/storytold/figcraft/releases/download/v0.13.1/figcraft-0.13.1-linux-aarch64.tar.gz";
-      sha256 = "sha256-FMalp4K17rs1aiMtnqWloBPxnJLE83BW77v87NvQ2TU=";
+      url = "https://github.com/storytold/figcraft/releases/download/v0.14.0/figcraft-0.14.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-F4Sej+5/pmVeAu8HHif3vbft0AGRcs0ujjUjIEyrBTU=";
     };
   };
   figcraft-x86_64-linux = {
     pname = "figcraft-x86_64-linux";
-    version = "0.13.1";
+    version = "0.14.0";
     src = fetchurl {
-      url = "https://github.com/storytold/figcraft/releases/download/v0.13.1/figcraft-0.13.1-linux-x86_64.tar.gz";
-      sha256 = "sha256-hlzynHWnN82FnZP6SOnUqo3GAj8liqEn6IuX2If5DSc=";
+      url = "https://github.com/storytold/figcraft/releases/download/v0.14.0/figcraft-0.14.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-DqSJzimSOK+WEGlAzdtCCRw+uhCcBf34Q7Tn+OuXCCk=";
     };
   };
   filmcraft-aarch64-linux = {
     pname = "filmcraft-aarch64-linux";
-    version = "0.15.0";
+    version = "0.16.0";
     src = fetchurl {
-      url = "https://github.com/storytold/filmcraft/releases/download/v0.15.0/filmcraft-0.15.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-LLZrj+JvADjzzXhTK5UbZiX+8WL4S4VkKJZ5u73OFCk=";
+      url = "https://github.com/storytold/filmcraft/releases/download/v0.16.0/filmcraft-0.16.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-irIMMOU9ZYbD25UTPFRuRWL0e5RYm3YQRh9DUaKmMI4=";
     };
   };
   filmcraft-x86_64-linux = {
     pname = "filmcraft-x86_64-linux";
-    version = "0.15.0";
+    version = "0.16.0";
     src = fetchurl {
-      url = "https://github.com/storytold/filmcraft/releases/download/v0.15.0/filmcraft-0.15.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-IrEGtMpilNmz6aSvQLQKZToYl0NzZIBQRqAd26pLIsE=";
+      url = "https://github.com/storytold/filmcraft/releases/download/v0.16.0/filmcraft-0.16.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-WIOQ7uXX4WNPBXlMT4d93ylJTZz3RAURHWfBbL4hWuk=";
     };
   };
   gridcraft-aarch64-linux = {
     pname = "gridcraft-aarch64-linux";
-    version = "0.14.2";
+    version = "0.15.0";
     src = fetchurl {
-      url = "https://github.com/storytold/gridcraft/releases/download/v0.14.2/gridcraft-0.14.2-linux-aarch64.tar.gz";
-      sha256 = "sha256-vCz7vJNIPtjEh/VQB/i4jBK9eAbxIJhEavhQ0CyS4wc=";
+      url = "https://github.com/storytold/gridcraft/releases/download/v0.15.0/gridcraft-0.15.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-kLKyFhNUYwm77TA2WRS6nCDdb30XWsfe1+J7xo5lU5o=";
     };
   };
   gridcraft-x86_64-linux = {
     pname = "gridcraft-x86_64-linux";
-    version = "0.14.2";
+    version = "0.15.0";
     src = fetchurl {
-      url = "https://github.com/storytold/gridcraft/releases/download/v0.14.2/gridcraft-0.14.2-linux-x86_64.tar.gz";
-      sha256 = "sha256-nIFTt2MK373vgCGqm5guHvGHts8nzSIzKAz68LpqGEI=";
+      url = "https://github.com/storytold/gridcraft/releases/download/v0.15.0/gridcraft-0.15.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-aBD4znOUtafN+vOYOCV7Y4Tc65+DJQJNR124le5Z2qo=";
     };
   };
   lightcraft-aarch64-linux = {
     pname = "lightcraft-aarch64-linux";
-    version = "0.16.0";
+    version = "0.17.0";
     src = fetchurl {
-      url = "https://github.com/storytold/lightcraft/releases/download/v0.16.0/lightcraft-0.16.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-dZajp47csmLybxq+d5QTToICSeE+y54ODJocJQaHBGs=";
+      url = "https://github.com/storytold/lightcraft/releases/download/v0.17.0/lightcraft-0.17.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-bCmOaGFrtxoaGPb60R/ykp9gynhEqvbLLVqk2xlcUgM=";
     };
   };
   lightcraft-x86_64-linux = {
     pname = "lightcraft-x86_64-linux";
-    version = "0.16.0";
+    version = "0.17.0";
     src = fetchurl {
-      url = "https://github.com/storytold/lightcraft/releases/download/v0.16.0/lightcraft-0.16.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-0i7fWsQBACkdjD2N3ovxyRyuIaC1bUypzAAm2zE5qSY=";
+      url = "https://github.com/storytold/lightcraft/releases/download/v0.17.0/lightcraft-0.17.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-0Yf1oVktSGYiDE0SfW5aPaT/p8lmzIffj0nnNcB88sE=";
     };
   };
   pdfcraft-aarch64-linux = {
     pname = "pdfcraft-aarch64-linux";
-    version = "0.16.1";
+    version = "0.17.0";
     src = fetchurl {
-      url = "https://github.com/storytold/pdfcraft/releases/download/v0.16.1/pdfcraft-0.16.1-linux-aarch64.tar.gz";
-      sha256 = "sha256-KQjpEnv4Dwv4ib1MKSmAvAbkf3SZmlv23Qk1fm9OWKQ=";
+      url = "https://github.com/storytold/pdfcraft/releases/download/v0.17.0/pdfcraft-0.17.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-Ma7V5NfLwb8Nix2gZZ3LDGzWEUvVeDwP2quxbSmic70=";
     };
   };
   pdfcraft-x86_64-linux = {
     pname = "pdfcraft-x86_64-linux";
-    version = "0.16.1";
+    version = "0.17.0";
     src = fetchurl {
-      url = "https://github.com/storytold/pdfcraft/releases/download/v0.16.1/pdfcraft-0.16.1-linux-x86_64.tar.gz";
-      sha256 = "sha256-uzbgcdEKFK9RISmaDu2NfF245cdYC2y+vsCFxB0b/go=";
+      url = "https://github.com/storytold/pdfcraft/releases/download/v0.17.0/pdfcraft-0.17.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-+YFKegr3e5Ba26HDB5yu3uU3WGeXBDz1r5UDkU9qvsU=";
     };
   };
   photocraft-aarch64-linux = {
     pname = "photocraft-aarch64-linux";
-    version = "0.18.0";
+    version = "0.19.0";
     src = fetchurl {
-      url = "https://github.com/storytold/photocraft/releases/download/v0.18.0/photocraft-0.18.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-Uf+tolWp5A+mi42AVatTjHs9v7npogvF7KNv6C58H9Y=";
+      url = "https://github.com/storytold/photocraft/releases/download/v0.19.0/photocraft-0.19.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-WUjo8Qw8AgqoyIA/GpA4ov+03ajrsbEpiByKQWstSK4=";
     };
   };
   photocraft-x86_64-linux = {
     pname = "photocraft-x86_64-linux";
-    version = "0.18.0";
+    version = "0.19.0";
     src = fetchurl {
-      url = "https://github.com/storytold/photocraft/releases/download/v0.18.0/photocraft-0.18.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-S4rI4RRqyal+e/3vFrJn1Tlqd4Cf1OIym4Pa14CGV08=";
+      url = "https://github.com/storytold/photocraft/releases/download/v0.19.0/photocraft-0.19.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-EjOFsXMKzhjxK8D0lGBuakzT9KuJH5MDbNTnG4rqcPc=";
     };
   };
   soundcraft-aarch64-linux = {
     pname = "soundcraft-aarch64-linux";
-    version = "0.15.0";
+    version = "0.16.0";
     src = fetchurl {
-      url = "https://github.com/storytold/soundcraft/releases/download/v0.15.0/soundcraft-0.15.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-WVz+F7FObDmGb1XNo45euEoSzBga7HSULYG04/tS+eo=";
+      url = "https://github.com/storytold/soundcraft/releases/download/v0.16.0/soundcraft-0.16.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-ppGjmZKemj0qOcIQcEVUiHvEbQe13mhHTkb1q8IIlXc=";
     };
   };
   soundcraft-x86_64-linux = {
     pname = "soundcraft-x86_64-linux";
-    version = "0.15.0";
+    version = "0.16.0";
     src = fetchurl {
-      url = "https://github.com/storytold/soundcraft/releases/download/v0.15.0/soundcraft-0.15.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-Fu8j72LsIPX8xT4Eq6r/UnCV5QX1YItHqxtyscjp7SA=";
+      url = "https://github.com/storytold/soundcraft/releases/download/v0.16.0/soundcraft-0.16.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-Jcawy4kkGY8i46bydx19zJ4EGjJEpL5EXL3p0A59wZ4=";
     };
   };
   vectorcraft-aarch64-linux = {
     pname = "vectorcraft-aarch64-linux";
-    version = "0.19.0";
+    version = "0.20.0";
     src = fetchurl {
-      url = "https://github.com/storytold/vectorcraft/releases/download/v0.19.0/vectorcraft-0.19.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-J9MakPk6e/qNspf8k0CPEJXxXqMJl3kH0KQsSDgU0Zw=";
+      url = "https://github.com/storytold/vectorcraft/releases/download/v0.20.0/vectorcraft-0.20.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-bFVXKfzqqn/uPhvZrcNxXUBabUPR9vA2zODSDxCq0/8=";
     };
   };
   vectorcraft-x86_64-linux = {
     pname = "vectorcraft-x86_64-linux";
-    version = "0.19.0";
+    version = "0.20.0";
     src = fetchurl {
-      url = "https://github.com/storytold/vectorcraft/releases/download/v0.19.0/vectorcraft-0.19.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-rlN4iPSWkZqosxk+om8F/SWEvgDv+G2AoH4mRPEGHpI=";
+      url = "https://github.com/storytold/vectorcraft/releases/download/v0.20.0/vectorcraft-0.20.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-042D2eWf3PehAEFOIrMJQJT+T+LdQ6EF8EKXgBJhDoY=";
     };
   };
   wordcraft-aarch64-linux = {
     pname = "wordcraft-aarch64-linux";
-    version = "0.13.2";
+    version = "0.14.0";
     src = fetchurl {
-      url = "https://github.com/storytold/wordcraft/releases/download/v0.13.2/wordcraft-0.13.2-linux-aarch64.tar.gz";
-      sha256 = "sha256-2mYnE1SLqeHZAeiJv8zYVIAyIBNa01kHNz64VtW29zQ=";
+      url = "https://github.com/storytold/wordcraft/releases/download/v0.14.0/wordcraft-0.14.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-oC4+8+qzZayjbFpqC4sAqSUlYskKt9qIS4PvcB366PA=";
     };
   };
   wordcraft-x86_64-linux = {
     pname = "wordcraft-x86_64-linux";
-    version = "0.13.2";
+    version = "0.14.0";
     src = fetchurl {
-      url = "https://github.com/storytold/wordcraft/releases/download/v0.13.2/wordcraft-0.13.2-linux-x86_64.tar.gz";
-      sha256 = "sha256-bPT8wDCi1PuvM0+dbGDXPCof3uKmlRwGfl+hFf4Qc48=";
+      url = "https://github.com/storytold/wordcraft/releases/download/v0.14.0/wordcraft-0.14.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-MBDaPTUtlSVuyaF6A5ZigKHUG6CdDr5WmvIwkti2SYc=";
     };
   };
 }
