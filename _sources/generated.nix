@@ -136,18 +136,18 @@
   };
   pdfcraft-aarch64-linux = {
     pname = "pdfcraft-aarch64-linux";
-    version = "0.18.0";
+    version = "0.18.1";
     src = fetchurl {
-      url = "https://github.com/storytold/pdfcraft/releases/download/v0.18.0/pdfcraft-0.18.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-ZsNCCEE3GGH8OMLoySZgWF0P4/t4LQgAkMnAi/oXfvI=";
+      url = "https://github.com/storytold/pdfcraft/releases/download/v0.18.1/pdfcraft-0.18.1-linux-aarch64.tar.gz";
+      sha256 = "sha256-e5kgudjEzLw2LNfozG+Tn+ryP6x4sai4h5HY1Mk/8Bw=";
     };
   };
   pdfcraft-x86_64-linux = {
     pname = "pdfcraft-x86_64-linux";
-    version = "0.18.0";
+    version = "0.18.1";
     src = fetchurl {
-      url = "https://github.com/storytold/pdfcraft/releases/download/v0.18.0/pdfcraft-0.18.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-yzZlzEXMeqa6AchouffGncTYAL71LUHP/qi/UDfE620=";
+      url = "https://github.com/storytold/pdfcraft/releases/download/v0.18.1/pdfcraft-0.18.1-linux-x86_64.tar.gz";
+      sha256 = "sha256-Qaa5+xaXDNNhDQXZhZlwAuQZv1J4+Gr2q0gHg/ib8fw=";
     };
   };
   photocraft-aarch64-linux = {
@@ -200,18 +200,18 @@
   };
   wordcraft-aarch64-linux = {
     pname = "wordcraft-aarch64-linux";
-    version = "0.15.0";
+    version = "0.15.1";
     src = fetchurl {
-      url = "https://github.com/storytold/wordcraft/releases/download/v0.15.0/wordcraft-0.15.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-GmDwoablab6jcBQVferAxATp+lgN991mWZvIhpKLmgY=";
+      url = "https://github.com/storytold/wordcraft/releases/download/v0.15.1/wordcraft-0.15.1-linux-aarch64.tar.gz";
+      sha256 = "sha256-HRFPe2cBeKHlvwJ5gNqw1PnBKVou7/0LetsUWM6kCag=";
     };
   };
   wordcraft-x86_64-linux = {
     pname = "wordcraft-x86_64-linux";
-    version = "0.15.0";
+    version = "0.15.1";
     src = fetchurl {
-      url = "https://github.com/storytold/wordcraft/releases/download/v0.15.0/wordcraft-0.15.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-uqzxgVgSSrw9RdxEhb/Hel1xf4CsULgGk7ZQHCZpjl0=";
+      url = "https://github.com/storytold/wordcraft/releases/download/v0.15.1/wordcraft-0.15.1-linux-x86_64.tar.gz";
+      sha256 = "sha256-jG/KOAnqGsgWjE19k5LK3oSlD1QBi+H4gSG6TswEpVI=";
     };
   };
 }
