@@ -68,11 +68,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-G7GD8uOjsqB0j6ZX8Wd8gphqdmZpN51PMjncPJjiqQU=",
+            "sha256": "sha256-KeaB9g+FMduOIKORAqQctN2ukjQ8x9GkyCMIGYURWO0=",
             "type": "url",
-            "url": "https://github.com/storytold/designcraft/releases/download/v0.17.0/designcraft-0.17.0-linux-aarch64.tar.gz"
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.17.1/designcraft-0.17.1-linux-aarch64.tar.gz"
         },
-        "version": "0.17.0"
+        "version": "0.17.1"
     },
     "designcraft-x86_64-linux": {
         "cargoLock": null,
@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-u2+c7EBGVTUCZumO4Q2bWhVFB+2ZitevR7JTNa+tGHI=",
+            "sha256": "sha256-o9cXIQJaGx7HLz3c70CQT22+TYJQNYbQNGXMWvH8uYY=",
             "type": "url",
-            "url": "https://github.com/storytold/designcraft/releases/download/v0.17.0/designcraft-0.17.0-linux-x86_64.tar.gz"
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.17.1/designcraft-0.17.1-linux-x86_64.tar.gz"
         },
-        "version": "0.17.0"
+        "version": "0.17.1"
     },
     "effectcraft-aarch64-linux": {
         "cargoLock": null,
