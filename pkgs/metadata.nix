@@ -22,4 +22,5 @@
   soundcraft.description = "Audio editor (ArtCraft suite)";
   soundcraft.extraLibs = pkgs: [ pkgs.alsa-lib ];
   figcraft.description = "UI design and prototyping editor (ArtCraft suite)";
+  craftanything.description = "See how any software works, then build your own (ArtCraft suite)";
 }
