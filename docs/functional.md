@@ -32,6 +32,7 @@ It is **unofficial** and not affiliated with or endorsed by the upstream authors
 | `cadcraft` | storytold/cadcraft | CAD |
 | `soundcraft` | storytold/soundcraft | Audio editing |
 | `figcraft` | storytold/figcraft | UI Design / Prototype |
+| `craft-anything` | storytold/craft-anything | Reverse Engineering |
 
 Each app also ships a `*-cli` companion (e.g. `photocraft-cli`); it is installed
 alongside the GUI binary.
