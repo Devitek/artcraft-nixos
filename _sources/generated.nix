@@ -22,6 +22,22 @@
       sha256 = "sha256-3aFlovLubh70nHzAJXteA4LetUHY6uAhExdogvny7AA=";
     };
   };
+  craft-anything-aarch64-linux = {
+    pname = "craft-anything-aarch64-linux";
+    version = "0.5.0";
+    src = fetchurl {
+      url = "https://github.com/storytold/craft-anything/releases/download/v0.5.0/craft-anything-0.5.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-X7v43kaensBzVcWlaGQSrEd17TQaTyoJ1/9h/1PBWAU=";
+    };
+  };
+  craft-anything-x86_64-linux = {
+    pname = "craft-anything-x86_64-linux";
+    version = "0.5.0";
+    src = fetchurl {
+      url = "https://github.com/storytold/craft-anything/releases/download/v0.5.0/craft-anything-0.5.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-0YxU7wXlx+9Q+MSVn+6Jg8CkofFB7cSI0R9wKZc8iFs=";
+    };
+  };
   deckcraft-aarch64-linux = {
     pname = "deckcraft-aarch64-linux";
     version = "0.15.1";

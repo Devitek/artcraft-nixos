@@ -29,6 +29,36 @@
         },
         "version": "0.17.1"
     },
+    "craft-anything-aarch64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "craft-anything-aarch64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-X7v43kaensBzVcWlaGQSrEd17TQaTyoJ1/9h/1PBWAU=",
+            "type": "url",
+            "url": "https://github.com/storytold/craft-anything/releases/download/v0.5.0/craft-anything-0.5.0-linux-aarch64.tar.gz"
+        },
+        "version": "0.5.0"
+    },
+    "craft-anything-x86_64-linux": {
+        "cargoLock": null,
+        "date": null,
+        "extract": null,
+        "name": "craft-anything-x86_64-linux",
+        "passthru": null,
+        "pinned": false,
+        "src": {
+            "name": null,
+            "sha256": "sha256-0YxU7wXlx+9Q+MSVn+6Jg8CkofFB7cSI0R9wKZc8iFs=",
+            "type": "url",
+            "url": "https://github.com/storytold/craft-anything/releases/download/v0.5.0/craft-anything-0.5.0-linux-x86_64.tar.gz"
+        },
+        "version": "0.5.0"
+    },
     "deckcraft-aarch64-linux": {
         "cargoLock": null,
         "date": null,
