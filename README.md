@@ -32,6 +32,7 @@ official GitHub releases and are refreshed automatically (hourly).
 | `cadcraft` | [storytold/cadcraft](https://github.com/storytold/cadcraft) | CAD |
 | `soundcraft` | [storytold/soundcraft](https://github.com/storytold/soundcraft) | Audio |
 | `figcraft` | [storytold/figcraft](https://github.com/storytold/figcraft) | UI Design / Prototyping |
+| `craft-anything` | [storytold/craft-anything](https://github.com/storytold/craft-anything) | Reverse Engineering |
 
 > The **craft-launcher** is intentionally not packaged: on NixOS, this flake *is*
 > the installer/updater. See [ADR-0004](docs/adr/0004-exclude-launcher.md).
