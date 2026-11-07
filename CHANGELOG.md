@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.35](https://github.com/Devitek/artcraft-nixos/compare/v0.1.34...v0.1.35) (2026-11-07)
+
+
+### Features
+
+* **craft-anything:** package 0.5.0 ([fba9da7](https://github.com/Devitek/artcraft-nixos/commit/fba9da7e8472dcf2e1fb68ef8273ae5e900f96b2))
+
 ## [0.1.34](https://github.com/Devitek/artcraft-nixos/compare/v0.1.33...v0.1.34) (2026-11-06)
 
 
