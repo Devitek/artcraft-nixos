@@ -158,11 +158,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-5yVTaMj4n44y2mODUAFhoL0+vXn8Uotk3Vn9QVqUWnU=",
+            "sha256": "sha256-u0/lG0Qkli3rF1AwzQVIWxI40TPdwJ8RfK7gaHB6LqY=",
             "type": "url",
-            "url": "https://github.com/storytold/figcraft/releases/download/v0.17.0/figcraft-0.17.0-linux-aarch64.tar.gz"
+            "url": "https://github.com/storytold/figcraft/releases/download/v0.18.0/figcraft-0.18.0-linux-aarch64.tar.gz"
         },
-        "version": "0.17.0"
+        "version": "0.18.0"
     },
     "figcraft-x86_64-linux": {
         "cargoLock": null,
@@ -173,11 +173,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-68i/pNoCaGDP+CHSAk1vUXBKxpR4lp9bKWEdu5am5GQ=",
+            "sha256": "sha256-jHZKpXlYqkY0w/0taHk6f4jQsyZtH0pIe3inB607JRM=",
             "type": "url",
-            "url": "https://github.com/storytold/figcraft/releases/download/v0.17.0/figcraft-0.17.0-linux-x86_64.tar.gz"
+            "url": "https://github.com/storytold/figcraft/releases/download/v0.18.0/figcraft-0.18.0-linux-x86_64.tar.gz"
         },
-        "version": "0.17.0"
+        "version": "0.18.0"
     },
     "filmcraft-aarch64-linux": {
         "cargoLock": null,
@@ -338,11 +338,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-SI7H68C+Tz8nT7BY5NP+/WSMPphNK5rfzclp7r2vfzw=",
+            "sha256": "sha256-1dp3ph6C05OWPlFVk3jvPQvtFQKjjnxuJyyS/GOlLeg=",
             "type": "url",
-            "url": "https://github.com/storytold/soundcraft/releases/download/v0.19.0/soundcraft-0.19.0-linux-aarch64.tar.gz"
+            "url": "https://github.com/storytold/soundcraft/releases/download/v0.20.0/soundcraft-0.20.0-linux-aarch64.tar.gz"
         },
-        "version": "0.19.0"
+        "version": "0.20.0"
     },
     "soundcraft-x86_64-linux": {
         "cargoLock": null,
@@ -353,11 +353,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-iaKb9Iwpnu5ZPXzWhLIchIPKKHq8GWZXrj+Vmh68GK0=",
+            "sha256": "sha256-zoR0Rz4+f+sidq8E/yBzLtY5EFXxiJE3eYNPUU7hpkg=",
             "type": "url",
-            "url": "https://github.com/storytold/soundcraft/releases/download/v0.19.0/soundcraft-0.19.0-linux-x86_64.tar.gz"
+            "url": "https://github.com/storytold/soundcraft/releases/download/v0.20.0/soundcraft-0.20.0-linux-x86_64.tar.gz"
         },
-        "version": "0.19.0"
+        "version": "0.20.0"
     },
     "vectorcraft-aarch64-linux": {
         "cargoLock": null,
