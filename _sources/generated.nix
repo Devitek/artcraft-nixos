@@ -136,18 +136,18 @@
   };
   lightcraft-aarch64-linux = {
     pname = "lightcraft-aarch64-linux";
-    version = "0.20.0";
+    version = "0.21.0";
     src = fetchurl {
-      url = "https://github.com/storytold/lightcraft/releases/download/v0.20.0/lightcraft-0.20.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-ktOf9OsgfkHa/kux7cVwigSGcrKpJQCoQL7nhp1QT4U=";
+      url = "https://github.com/storytold/lightcraft/releases/download/v0.21.0/lightcraft-0.21.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-I0cddfSYFPpzTZSpkNHmxhRBrvBAPnuUVxsJ6fsY9Rs=";
     };
   };
   lightcraft-x86_64-linux = {
     pname = "lightcraft-x86_64-linux";
-    version = "0.20.0";
+    version = "0.21.0";
     src = fetchurl {
-      url = "https://github.com/storytold/lightcraft/releases/download/v0.20.0/lightcraft-0.20.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-jLXu2CWy3Z4PpCaAEp0+WqcY8HGW1nzF0FdB8OapzCU=";
+      url = "https://github.com/storytold/lightcraft/releases/download/v0.21.0/lightcraft-0.21.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-fn2lU96hACaKBY8TXHxK0fT7drTYJC4U9w8W7YkllYA=";
     };
   };
   pdfcraft-aarch64-linux = {
@@ -168,18 +168,18 @@
   };
   photocraft-aarch64-linux = {
     pname = "photocraft-aarch64-linux";
-    version = "0.22.0";
+    version = "0.23.0";
     src = fetchurl {
-      url = "https://github.com/storytold/photocraft/releases/download/v0.22.0/photocraft-0.22.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-EX1bptSlLL4tKEx4poLaQgBjp7RgDaszJUWyu3I5o2o=";
+      url = "https://github.com/storytold/photocraft/releases/download/v0.23.0/photocraft-0.23.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-LOiXgpLTFI4YUmtUC20M9eqbmkt4LTRcyk08A+i6dRw=";
     };
   };
   photocraft-x86_64-linux = {
     pname = "photocraft-x86_64-linux";
-    version = "0.22.0";
+    version = "0.23.0";
     src = fetchurl {
-      url = "https://github.com/storytold/photocraft/releases/download/v0.22.0/photocraft-0.22.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-7t6vpGdd+9HyNR5r+kuC9URTaU6zbaG71cqLv19U8gI=";
+      url = "https://github.com/storytold/photocraft/releases/download/v0.23.0/photocraft-0.23.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-mFjuI0hU98OQ8+q0c0rqUxAMyRLCyNzqoClCe3XdIvg=";
     };
   };
   soundcraft-aarch64-linux = {
