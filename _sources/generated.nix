@@ -200,18 +200,18 @@
   };
   vectorcraft-aarch64-linux = {
     pname = "vectorcraft-aarch64-linux";
-    version = "0.23.0";
+    version = "0.24.0";
     src = fetchurl {
-      url = "https://github.com/storytold/vectorcraft/releases/download/v0.23.0/vectorcraft-0.23.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-bNVLdqwKwF/IhCtvsTorOZL67EmdxJewkCedoK/qJeY=";
+      url = "https://github.com/storytold/vectorcraft/releases/download/v0.24.0/vectorcraft-0.24.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-3WF1ZjFsr3A4hN4e2/EJ9w3wPrlJ75NUYj6u1agivD4=";
     };
   };
   vectorcraft-x86_64-linux = {
     pname = "vectorcraft-x86_64-linux";
-    version = "0.23.0";
+    version = "0.24.0";
     src = fetchurl {
-      url = "https://github.com/storytold/vectorcraft/releases/download/v0.23.0/vectorcraft-0.23.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-B8JKYJT7RXxmW5WEjVW/vQVGA1S8DqybTsn5RnqLHjE=";
+      url = "https://github.com/storytold/vectorcraft/releases/download/v0.24.0/vectorcraft-0.24.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-nGFxygB6b4NcNotZL+nukMmF1lBX7cnc0rxMTvxQrSs=";
     };
   };
   wordcraft-aarch64-linux = {
