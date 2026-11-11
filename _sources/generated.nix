@@ -72,18 +72,18 @@
   };
   effectcraft-aarch64-linux = {
     pname = "effectcraft-aarch64-linux";
-    version = "0.23.1";
+    version = "0.24.0";
     src = fetchurl {
-      url = "https://github.com/storytold/effectcraft/releases/download/v0.23.1/effectcraft-0.23.1-linux-aarch64.tar.gz";
-      sha256 = "sha256-//jtdSuQ1jweSR9sxtJwD8cSL8FeH6tnQAAGUFK+8/4=";
+      url = "https://github.com/storytold/effectcraft/releases/download/v0.24.0/effectcraft-0.24.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-yjeZ8XIxZii2YacRGjnjk0VOodw4YmDo6HKIS+59cGw=";
     };
   };
   effectcraft-x86_64-linux = {
     pname = "effectcraft-x86_64-linux";
-    version = "0.23.1";
+    version = "0.24.0";
     src = fetchurl {
-      url = "https://github.com/storytold/effectcraft/releases/download/v0.23.1/effectcraft-0.23.1-linux-x86_64.tar.gz";
-      sha256 = "sha256-ozDRQG/ecdB6xVrTf+gfXeN+x+p8p8O5+gKqzQRQLbE=";
+      url = "https://github.com/storytold/effectcraft/releases/download/v0.24.0/effectcraft-0.24.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-l7Ws6bjL44qF/k7dAuR+vfQnKTML0oC6IHTAiblrUCI=";
     };
   };
   figcraft-aarch64-linux = {
@@ -152,18 +152,18 @@
   };
   pdfcraft-aarch64-linux = {
     pname = "pdfcraft-aarch64-linux";
-    version = "0.20.0";
+    version = "0.21.0";
     src = fetchurl {
-      url = "https://github.com/storytold/pdfcraft/releases/download/v0.20.0/pdfcraft-0.20.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-PXlvqtW29RBGqIAMYolPftbKs/e8eFC/fntHxh2gfjk=";
+      url = "https://github.com/storytold/pdfcraft/releases/download/v0.21.0/pdfcraft-0.21.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-HNeaGE1YqiOS+9wAdWDjk5h42W8SssBslvTzhfxhPQk=";
     };
   };
   pdfcraft-x86_64-linux = {
     pname = "pdfcraft-x86_64-linux";
-    version = "0.20.0";
+    version = "0.21.0";
     src = fetchurl {
-      url = "https://github.com/storytold/pdfcraft/releases/download/v0.20.0/pdfcraft-0.20.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-Gg8px6auBJFhJiMdhDsuqDaiG42wny70FpUQFaQ36Lw=";
+      url = "https://github.com/storytold/pdfcraft/releases/download/v0.21.0/pdfcraft-0.21.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-eajHbiOtbmcd47hWpHaTavwAD4qn/v/xkNQ95i+jW6E=";
     };
   };
   photocraft-aarch64-linux = {
