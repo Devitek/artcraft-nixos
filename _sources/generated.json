@@ -8,11 +8,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-Z+rPskPpGmnfx7P3TqYPHmfl+8tIlBWRQ3dkmOUkv7M=",
+            "sha256": "sha256-Zy+pAS4NBPdgU/ETfsrb/2IEDPnke4HL3JDPIZC77Ic=",
             "type": "url",
-            "url": "https://github.com/storytold/cadcraft/releases/download/v0.19.0/cadcraft-0.19.0-linux-aarch64.tar.gz"
+            "url": "https://github.com/storytold/cadcraft/releases/download/v0.20.0/cadcraft-0.20.0-linux-aarch64.tar.gz"
         },
-        "version": "0.19.0"
+        "version": "0.20.0"
     },
     "cadcraft-x86_64-linux": {
         "cargoLock": null,
@@ -23,11 +23,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-plTfjD5EfGLEkMCoqtjEKp+vqwEMpNJbw1BO1Fs8j1E=",
+            "sha256": "sha256-UAWDN6wl9UL87yyDQxg1dtDEIKocfdYjEQvtiZ4sSOk=",
             "type": "url",
-            "url": "https://github.com/storytold/cadcraft/releases/download/v0.19.0/cadcraft-0.19.0-linux-x86_64.tar.gz"
+            "url": "https://github.com/storytold/cadcraft/releases/download/v0.20.0/cadcraft-0.20.0-linux-x86_64.tar.gz"
         },
-        "version": "0.19.0"
+        "version": "0.20.0"
     },
     "craft-anything-aarch64-linux": {
         "cargoLock": null,
@@ -68,11 +68,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-I8qUOEvQipdC66F7Fis8tI1SDqyAYo/CO3mlUaFcNwY=",
+            "sha256": "sha256-t2xKDAnyIF1KbIpmnp+zb+Nr1U9Il8kf7hqONJUe/iE=",
             "type": "url",
-            "url": "https://github.com/storytold/deckcraft/releases/download/v0.17.0/deckcraft-0.17.0-linux-aarch64.tar.gz"
+            "url": "https://github.com/storytold/deckcraft/releases/download/v0.18.0/deckcraft-0.18.0-linux-aarch64.tar.gz"
         },
-        "version": "0.17.0"
+        "version": "0.18.0"
     },
     "deckcraft-x86_64-linux": {
         "cargoLock": null,
@@ -83,11 +83,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-phoFCVpSqAmQqomQtEcQBVPpnI+m7ch1SqUnQKGm+bA=",
+            "sha256": "sha256-0fEpr4wS8SULzBfbzbqsOAkAyROByEpK2m7ntICk2wY=",
             "type": "url",
-            "url": "https://github.com/storytold/deckcraft/releases/download/v0.17.0/deckcraft-0.17.0-linux-x86_64.tar.gz"
+            "url": "https://github.com/storytold/deckcraft/releases/download/v0.18.0/deckcraft-0.18.0-linux-x86_64.tar.gz"
         },
-        "version": "0.17.0"
+        "version": "0.18.0"
     },
     "designcraft-aarch64-linux": {
         "cargoLock": null,
@@ -98,11 +98,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-yYMaim+Lh+HEOahVLbJp+9azi/ksKSZpIY4C5hIvTLw=",
+            "sha256": "sha256-1PEtAveq1lLRk+QDb1Umc56dsbPr0qdxmHB4mWo8yMs=",
             "type": "url",
-            "url": "https://github.com/storytold/designcraft/releases/download/v0.19.0/designcraft-0.19.0-linux-aarch64.tar.gz"
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.20.0/designcraft-0.20.0-linux-aarch64.tar.gz"
         },
-        "version": "0.19.0"
+        "version": "0.20.0"
     },
     "designcraft-x86_64-linux": {
         "cargoLock": null,
@@ -113,11 +113,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-UFVTH+n2Dk2mETdw/s8n37A5hPgx+k7XBzC+FWoxaGY=",
+            "sha256": "sha256-b3IQO2+iPct3vteUt6MBGJoqd6SMtjBadtvTMWmm6N4=",
             "type": "url",
-            "url": "https://github.com/storytold/designcraft/releases/download/v0.19.0/designcraft-0.19.0-linux-x86_64.tar.gz"
+            "url": "https://github.com/storytold/designcraft/releases/download/v0.20.0/designcraft-0.20.0-linux-x86_64.tar.gz"
         },
-        "version": "0.19.0"
+        "version": "0.20.0"
     },
     "effectcraft-aarch64-linux": {
         "cargoLock": null,
@@ -188,11 +188,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-fp6FcyW+K2GXtX4qIfz4+vRfpCZEx57r7R+3NMP4vtc=",
+            "sha256": "sha256-wp1dUxgHoVUSXyUmp6lglmsIbudXS+XTXXFzSXFAOMA=",
             "type": "url",
-            "url": "https://github.com/storytold/filmcraft/releases/download/v0.19.0/filmcraft-0.19.0-linux-aarch64.tar.gz"
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.20.0/filmcraft-0.20.0-linux-aarch64.tar.gz"
         },
-        "version": "0.19.0"
+        "version": "0.20.0"
     },
     "filmcraft-x86_64-linux": {
         "cargoLock": null,
@@ -203,11 +203,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-dhSTQ8GXALpqyQX96KAZ4JF9BlB/QmpZODltl6HKISQ=",
+            "sha256": "sha256-NUZdcb3hifUMrK8+T9icTKY3f6+OtI6qLwZbjlRZMjY=",
             "type": "url",
-            "url": "https://github.com/storytold/filmcraft/releases/download/v0.19.0/filmcraft-0.19.0-linux-x86_64.tar.gz"
+            "url": "https://github.com/storytold/filmcraft/releases/download/v0.20.0/filmcraft-0.20.0-linux-x86_64.tar.gz"
         },
-        "version": "0.19.0"
+        "version": "0.20.0"
     },
     "gridcraft-aarch64-linux": {
         "cargoLock": null,
@@ -218,11 +218,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-lFVLOj1KqHrNW/7DaVfsw9Sc8xcADS+MKL+fpkTGLU0=",
+            "sha256": "sha256-HKRUu3OBPbzYtwThGYPOH+1Vm2PLlBjsB7zZcUASBtQ=",
             "type": "url",
-            "url": "https://github.com/storytold/gridcraft/releases/download/v0.18.0/gridcraft-0.18.0-linux-aarch64.tar.gz"
+            "url": "https://github.com/storytold/gridcraft/releases/download/v0.19.0/gridcraft-0.19.0-linux-aarch64.tar.gz"
         },
-        "version": "0.18.0"
+        "version": "0.19.0"
     },
     "gridcraft-x86_64-linux": {
         "cargoLock": null,
@@ -233,11 +233,11 @@
         "pinned": false,
         "src": {
             "name": null,
-            "sha256": "sha256-aSBf1y5I6D52PFPI9so+3AHTi6i6DRbisYSpyFikzV8=",
+            "sha256": "sha256-47HPSpJuKvp+isIukIt833uvYQO7RE+Za/oLw9iJrbY=",
             "type": "url",
-            "url": "https://github.com/storytold/gridcraft/releases/download/v0.18.0/gridcraft-0.18.0-linux-x86_64.tar.gz"
+            "url": "https://github.com/storytold/gridcraft/releases/download/v0.19.0/gridcraft-0.19.0-linux-x86_64.tar.gz"
         },
-        "version": "0.18.0"
+        "version": "0.19.0"
     },
     "lightcraft-aarch64-linux": {
         "cargoLock": null,
