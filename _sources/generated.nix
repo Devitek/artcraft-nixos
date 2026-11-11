@@ -216,18 +216,18 @@
   };
   wordcraft-aarch64-linux = {
     pname = "wordcraft-aarch64-linux";
-    version = "0.17.0";
+    version = "0.18.0";
     src = fetchurl {
-      url = "https://github.com/storytold/wordcraft/releases/download/v0.17.0/wordcraft-0.17.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-wXLcUM5NiyYuSfnw70uk+YjDvaFmnDe53Wlk5GyeVts=";
+      url = "https://github.com/storytold/wordcraft/releases/download/v0.18.0/wordcraft-0.18.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-o41h0cR9J0tgOMI9LbyuiCug17EAjAi2AdVq0aqlGCE=";
     };
   };
   wordcraft-x86_64-linux = {
     pname = "wordcraft-x86_64-linux";
-    version = "0.17.0";
+    version = "0.18.0";
     src = fetchurl {
-      url = "https://github.com/storytold/wordcraft/releases/download/v0.17.0/wordcraft-0.17.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-nHRMDDGjziXfgmgPx15kXWgoRvrMvhA/T5GnWLGfNoc=";
+      url = "https://github.com/storytold/wordcraft/releases/download/v0.18.0/wordcraft-0.18.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-8paT5gNt6UFWzvQrzb1kR4oa7C85akwqFaf3JT51kiY=";
     };
   };
 }
