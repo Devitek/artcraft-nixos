@@ -1,92 +1,88 @@
-# artcraft-nixos
+<p align="center">
+  <img src=".github/assets/banner.svg" alt="artcraft-nixos" width="100%">
+</p>
 
-> Unofficial NixOS packaging of the **ArtCraft** creative suite by
-> [storytold / Learning Machines LLC](https://github.com/storytold).
+<p align="center">The ArtCraft creative suite for NixOS, kept in sync with upstream releases.</p>
 
-[![CI](https://github.com/Devitek/artcraft-nixos/actions/workflows/ci.yml/badge.svg)](https://github.com/Devitek/artcraft-nixos/actions/workflows/ci.yml)
-[![Auto-update](https://github.com/Devitek/artcraft-nixos/actions/workflows/update.yml/badge.svg)](https://github.com/Devitek/artcraft-nixos/actions/workflows/update.yml)
+<p align="center">
+  <a href="https://github.com/Devitek/artcraft-nixos/releases/latest"><img src="https://img.shields.io/github/v/release/Devitek/artcraft-nixos?style=flat-square&label=release&labelColor=141517&color=F0703A" alt="Latest release"></a>
+  <a href="https://github.com/Devitek/artcraft-nixos/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Devitek/artcraft-nixos/ci.yml?branch=main&style=flat-square&label=ci&labelColor=141517" alt="CI"></a>
+  <a href="https://github.com/Devitek/artcraft-nixos/actions/workflows/update.yml"><img src="https://img.shields.io/github/actions/workflow/status/Devitek/artcraft-nixos/update.yml?branch=main&style=flat-square&label=auto-update&labelColor=141517" alt="Auto-update"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/Devitek/artcraft-nixos?style=flat-square&labelColor=141517&color=F6F5F2" alt="License"></a>
+</p>
 
-This flake packages the ArtCraft apps for NixOS as a Nix **flake**, a **nixpkgs
-overlay**, a **NixOS module** and a **Home Manager module**. Packages track the
-official GitHub releases and are refreshed automatically (hourly).
+<p align="center">
+  <a href="#installation">Installation</a> ·
+  <a href="#usage">Usage</a> ·
+  <a href="#documentation">Documentation</a> ·
+  <a href="CHANGELOG.md">Changelog</a> ·
+  <a href="CONTRIBUTING.md">Contributing</a>
+</p>
 
-> **Disclaimer.** This is a community repository and is **not affiliated with or
-> endorsed by** storytold / Learning Machines LLC. It repackages the official,
-> pre-built Linux release binaries (Apache-2.0 / MIT upstream). The packaging code
-> here is MIT-licensed.
+[ArtCraft](https://github.com/storytold) is a suite of creative apps by storytold. This repository repackages their official pre-built Linux releases for NixOS, with desktop entries and declarative install. New upstream releases are picked up, built, smoke-tested and merged automatically.
 
-## Applications
+> [!NOTE]
+> Community project, not affiliated with or endorsed by storytold / Learning Machines LLC. App bugs belong upstream; packaging bugs belong [here](https://github.com/Devitek/artcraft-nixos/issues).
 
-| Package | Upstream | Description |
-| --- | --- | --- |
-| `photocraft` | [storytold/photocraft](https://github.com/storytold/photocraft) | Raster image editing |
-| `vectorcraft` | [storytold/vectorcraft](https://github.com/storytold/vectorcraft) | Vector graphics |
-| `filmcraft` | [storytold/filmcraft](https://github.com/storytold/filmcraft) | Video editing |
-| `lightcraft` | [storytold/lightcraft](https://github.com/storytold/lightcraft) | Lighting / photo processing |
-| `pdfcraft` | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) | PDF tooling |
-| `effectcraft` | [storytold/effectcraft](https://github.com/storytold/effectcraft) | Visual effects |
-| `designcraft` | [storytold/designcraft](https://github.com/storytold/designcraft) | Design / layout |
-| `gridcraft` | [storytold/gridcraft](https://github.com/storytold/gridcraft) | Spreadsheets / grids |
-| `wordcraft` | [storytold/wordcraft](https://github.com/storytold/wordcraft) | Word processing |
-| `deckcraft` | [storytold/deckcraft](https://github.com/storytold/deckcraft) | Presentations |
-| `cadcraft` | [storytold/cadcraft](https://github.com/storytold/cadcraft) | CAD |
-| `soundcraft` | [storytold/soundcraft](https://github.com/storytold/soundcraft) | Audio |
-| `figcraft` | [storytold/figcraft](https://github.com/storytold/figcraft) | UI Design / Prototyping |
-| `craft-anything` | [storytold/craft-anything](https://github.com/storytold/craft-anything) | Reverse Engineering |
+## Installation
 
-> The **craft-launcher** is intentionally not packaged: on NixOS, this flake *is*
-> the installer/updater. See [ADR-0004](docs/adr/0004-exclude-launcher.md).
-
-## Supported systems
-
-`x86_64-linux` and `aarch64-linux` (the only Linux architectures published upstream).
-
-These are GPU applications (egui + wgpu). On NixOS make sure graphics drivers are
-available:
-
-```nix
-hardware.graphics.enable = true; # NixOS < 24.11: hardware.opengl.enable = true;
-```
-
-## Usage
-
-### Try an app without installing
+Try an app without installing anything:
 
 ```sh
 nix run github:devitek/artcraft-nixos#photocraft
 ```
 
-### As a flake input
+Or add the flake to your inputs:
 
 ```nix
 {
   inputs.artcraft.url = "github:devitek/artcraft-nixos";
-  # optional: reuse your own nixpkgs
-  inputs.artcraft.inputs.nixpkgs.follows = "nixpkgs";
+  inputs.artcraft.inputs.nixpkgs.follows = "nixpkgs"; # optional
 }
 ```
 
-### NixOS module
+Supports `x86_64-linux` and `aarch64-linux`. The apps render on the GPU, so enable `hardware.graphics.enable = true;` on NixOS.
+
+## Applications
+
+| Package | What it does | Version | Upstream |
+| --- | --- | --- | --- |
+| `photocraft` | Raster image editing | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27photocraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="photocraft version"> | [storytold/photocraft](https://github.com/storytold/photocraft) |
+| `vectorcraft` | Vector graphics | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27vectorcraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="vectorcraft version"> | [storytold/vectorcraft](https://github.com/storytold/vectorcraft) |
+| `filmcraft` | Video editing | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27filmcraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="filmcraft version"> | [storytold/filmcraft](https://github.com/storytold/filmcraft) |
+| `lightcraft` | Lighting / photo processing | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27lightcraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="lightcraft version"> | [storytold/lightcraft](https://github.com/storytold/lightcraft) |
+| `pdfcraft` | PDF tooling | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27pdfcraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="pdfcraft version"> | [storytold/pdfcraft](https://github.com/storytold/pdfcraft) |
+| `effectcraft` | Visual effects | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27effectcraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="effectcraft version"> | [storytold/effectcraft](https://github.com/storytold/effectcraft) |
+| `designcraft` | Design / layout | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27designcraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="designcraft version"> | [storytold/designcraft](https://github.com/storytold/designcraft) |
+| `gridcraft` | Spreadsheets / grids | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27gridcraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="gridcraft version"> | [storytold/gridcraft](https://github.com/storytold/gridcraft) |
+| `wordcraft` | Word processing | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27wordcraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="wordcraft version"> | [storytold/wordcraft](https://github.com/storytold/wordcraft) |
+| `deckcraft` | Presentations | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27deckcraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="deckcraft version"> | [storytold/deckcraft](https://github.com/storytold/deckcraft) |
+| `cadcraft` | CAD | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27cadcraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="cadcraft version"> | [storytold/cadcraft](https://github.com/storytold/cadcraft) |
+| `soundcraft` | Audio | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27soundcraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="soundcraft version"> | [storytold/soundcraft](https://github.com/storytold/soundcraft) |
+| `figcraft` | UI design / prototyping | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27figcraft-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="figcraft version"> | [storytold/figcraft](https://github.com/storytold/figcraft) |
+| `craft-anything` | Reverse engineering | <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FDevitek%2Fartcraft-nixos%2Fmain%2F_sources%2Fgenerated.json&query=%24%5B%27craft-anything-x86_64-linux%27%5D.version&style=flat-square&label=&labelColor=141517&color=141517" alt="craft-anything version"> | [storytold/craft-anything](https://github.com/storytold/craft-anything) |
+
+Each app ships with its `*-cli` companion. The craft-launcher is not packaged: on NixOS, this flake is the installer ([ADR-0004](docs/adr/0004-exclude-launcher.md)).
+
+## Usage
+
+**NixOS**
 
 ```nix
 {
   imports = [ artcraft.nixosModules.default ];
-
   programs.artcraft = {
     enable = true;
-    apps = [ "photocraft" "vectorcraft" "pdfcraft" ];
+    apps = [ "photocraft" "vectorcraft" "pdfcraft" ]; # default: all apps
   };
-
-  hardware.graphics.enable = true;
 }
 ```
 
-### Home Manager module
+**Home Manager**
 
 ```nix
 {
   imports = [ artcraft.homeManagerModules.default ];
-
   programs.artcraft = {
     enable = true;
     apps = [ "photocraft" "soundcraft" ];
@@ -94,7 +90,7 @@ nix run github:devitek/artcraft-nixos#photocraft
 }
 ```
 
-### Overlay
+**Overlay**
 
 ```nix
 nixpkgs.overlays = [ artcraft.overlays.default ];
@@ -103,31 +99,42 @@ nixpkgs.overlays = [ artcraft.overlays.default ];
 
 ## How updates work
 
-A scheduled GitHub Actions workflow runs [`nvfetcher`](https://github.com/berberman/nvfetcher)
-hourly, detects new upstream releases, refreshes `_sources/generated.json` with the
-new versions and hashes, verifies the packages build, and opens an auto-merging PR.
-See [docs/technical.md](docs/technical.md) and
-[ADR-0003](docs/adr/0003-update-mechanism.md).
+[nvfetcher](https://github.com/berberman/nvfetcher) tracks upstream releases. When a new one lands, the update workflow refreshes the versions and hashes, runs `nix flake check` (builds, smoke tests, module evaluation) and merges the change. [release-please](https://github.com/googleapis/release-please) then cuts a SemVer release of this repository. Pin a tag if you prefer to update on your own schedule.
 
-## Troubleshooting
+<details>
+<summary><strong>Troubleshooting</strong></summary>
 
-### `HTTP error 403` when fetching the flake
-
-If fetching `github:devitek/artcraft-nixos` returns a GitHub API `403`, fetch over
-git instead of the REST API — just swap the flake URL:
+**`HTTP error 403` when fetching the flake.** Fetch over git instead of the GitHub API:
 
 ```sh
 nix run 'git+https://github.com/devitek/artcraft-nixos#photocraft'
 ```
+
+</details>
 
 ## Documentation
 
 - [Functional overview](docs/functional.md)
 - [Technical architecture](docs/technical.md)
 - [Architecture Decision Records](docs/adr/)
-- [Contributing](CONTRIBUTING.md)
+
+## Contributing
+
+Contributions are welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) first: one issue per change, Conventional Commits, green CI.
 
 ## License
 
-Packaging code: [MIT](LICENSE). The packaged binaries remain under their upstream
-licenses (`MIT OR Apache-2.0`).
+The packaging code is released under the [MIT License](LICENSE). The apps remain under their upstream licenses (`MIT OR Apache-2.0`).
+
+---
+
+<p align="center">
+  <a href="https://github.com/Devitek">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset=".github/assets/devitek-wordmark-blanc.svg">
+      <img src=".github/assets/devitek-wordmark-encre.svg" alt="Devitek" height="22">
+    </picture>
+  </a>
+  <br>
+  <sub>Built and maintained by <a href="https://github.com/Devitek">Devitek</a></sub>
+</p>
