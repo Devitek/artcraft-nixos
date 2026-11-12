@@ -24,18 +24,18 @@
   };
   craft-anything-aarch64-linux = {
     pname = "craft-anything-aarch64-linux";
-    version = "0.6.0";
+    version = "0.6.1";
     src = fetchurl {
-      url = "https://github.com/storytold/craft-anything/releases/download/v0.6.0/craft-anything-0.6.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-4i8t+UCIJCHZU5WmhWRxaKqChhgFjdL47Ushwt/77gE=";
+      url = "https://github.com/storytold/craft-anything/releases/download/v0.6.1/craft-anything-0.6.1-linux-aarch64.tar.gz";
+      sha256 = "sha256-tCVayAbipZi5/G26To7SGQ5Juq/S9o3X4DfzKU5HKUE=";
     };
   };
   craft-anything-x86_64-linux = {
     pname = "craft-anything-x86_64-linux";
-    version = "0.6.0";
+    version = "0.6.1";
     src = fetchurl {
-      url = "https://github.com/storytold/craft-anything/releases/download/v0.6.0/craft-anything-0.6.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-y8ZZcqjrTIntdLmbzxSqXqD3qp2nCd7zjaecysxeB6A=";
+      url = "https://github.com/storytold/craft-anything/releases/download/v0.6.1/craft-anything-0.6.1-linux-x86_64.tar.gz";
+      sha256 = "sha256-g+wHMMkRfzmRIrMVxj7Uw6jTGsVb3ddMuLM80vdu9wQ=";
     };
   };
   deckcraft-aarch64-linux = {
@@ -88,18 +88,18 @@
   };
   figcraft-aarch64-linux = {
     pname = "figcraft-aarch64-linux";
-    version = "0.18.0";
+    version = "0.18.1";
     src = fetchurl {
-      url = "https://github.com/storytold/figcraft/releases/download/v0.18.0/figcraft-0.18.0-linux-aarch64.tar.gz";
-      sha256 = "sha256-u0/lG0Qkli3rF1AwzQVIWxI40TPdwJ8RfK7gaHB6LqY=";
+      url = "https://github.com/storytold/figcraft/releases/download/v0.18.1/figcraft-0.18.1-linux-aarch64.tar.gz";
+      sha256 = "sha256-sn3uEL5dtQ3vA97jvkcLwvnOUIvhaQ51tHZTVNK4nIg=";
     };
   };
   figcraft-x86_64-linux = {
     pname = "figcraft-x86_64-linux";
-    version = "0.18.0";
+    version = "0.18.1";
     src = fetchurl {
-      url = "https://github.com/storytold/figcraft/releases/download/v0.18.0/figcraft-0.18.0-linux-x86_64.tar.gz";
-      sha256 = "sha256-jHZKpXlYqkY0w/0taHk6f4jQsyZtH0pIe3inB607JRM=";
+      url = "https://github.com/storytold/figcraft/releases/download/v0.18.1/figcraft-0.18.1-linux-x86_64.tar.gz";
+      sha256 = "sha256-gnbSrFXG939686QRqbAEFdP+sLWWB6VFIzETQOZT/Bk=";
     };
   };
   filmcraft-aarch64-linux = {
