@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.49](https://github.com/Devitek/artcraft-nixos/compare/v0.1.48...v0.1.49) (2026-11-12)
+
+
+### Documentation
+
+* Devitek-branded README ([#140](https://github.com/Devitek/artcraft-nixos/issues/140)) ([e26b113](https://github.com/Devitek/artcraft-nixos/commit/e26b113bc6dee515410eea52a184b15dc31d308f)), closes [#139](https://github.com/Devitek/artcraft-nixos/issues/139)
+
 ## [0.1.48](https://github.com/Devitek/artcraft-nixos/compare/v0.1.47...v0.1.48) (2026-11-12)
 
 
