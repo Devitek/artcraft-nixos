@@ -56,18 +56,18 @@
   };
   designcraft-aarch64-linux = {
     pname = "designcraft-aarch64-linux";
-    version = "0.20.1";
+    version = "0.21.1";
     src = fetchurl {
-      url = "https://github.com/storytold/designcraft/releases/download/v0.20.1/designcraft-0.20.1-linux-aarch64.tar.gz";
-      sha256 = "sha256-IIw89zVl+nZcR+62AflP7EJegX0VzCEx36HB6+LQZiA=";
+      url = "https://github.com/storytold/designcraft/releases/download/v0.21.1/designcraft-0.21.1-linux-aarch64.tar.gz";
+      sha256 = "sha256-CszzA9olsOGtKwCk2BLekgekX+wjbBlCHZpATJ0pHdY=";
     };
   };
   designcraft-x86_64-linux = {
     pname = "designcraft-x86_64-linux";
-    version = "0.20.1";
+    version = "0.21.1";
     src = fetchurl {
-      url = "https://github.com/storytold/designcraft/releases/download/v0.20.1/designcraft-0.20.1-linux-x86_64.tar.gz";
-      sha256 = "sha256-6RYw1M31eMyx4vOfiOJOhSDxSC1RrkcUZX7kceIjf0Q=";
+      url = "https://github.com/storytold/designcraft/releases/download/v0.21.1/designcraft-0.21.1-linux-x86_64.tar.gz";
+      sha256 = "sha256-IR50ufXO5b/DzbRpg9C9sf29CRZL/YB/T/cHBpNdQK4=";
     };
   };
   effectcraft-aarch64-linux = {
