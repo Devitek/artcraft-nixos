@@ -152,18 +152,18 @@
   };
   pdfcraft-aarch64-linux = {
     pname = "pdfcraft-aarch64-linux";
-    version = "0.21.1";
+    version = "0.22.0";
     src = fetchurl {
-      url = "https://github.com/storytold/pdfcraft/releases/download/v0.21.1/pdfcraft-0.21.1-linux-aarch64.tar.gz";
-      sha256 = "sha256-sI7+QWwdpFCwSz5OxfA4nXHXWA9DmPntoG0z0EcTx3A=";
+      url = "https://github.com/storytold/pdfcraft/releases/download/v0.22.0/pdfcraft-0.22.0-linux-aarch64.tar.gz";
+      sha256 = "sha256-zhN3JlUBWOIsiHy49xAB47KdF0Gup0kuDw/0kFTi/gM=";
     };
   };
   pdfcraft-x86_64-linux = {
     pname = "pdfcraft-x86_64-linux";
-    version = "0.21.1";
+    version = "0.22.0";
     src = fetchurl {
-      url = "https://github.com/storytold/pdfcraft/releases/download/v0.21.1/pdfcraft-0.21.1-linux-x86_64.tar.gz";
-      sha256 = "sha256-wpGekETv/eMY5mgHrSohu7dKlVWzwLmfmtDEDPYc4l4=";
+      url = "https://github.com/storytold/pdfcraft/releases/download/v0.22.0/pdfcraft-0.22.0-linux-x86_64.tar.gz";
+      sha256 = "sha256-qJk/nuluh6zOz5CvQib/YKhLnheHrp/Y+kj/4Tlrw14=";
     };
   };
   photocraft-aarch64-linux = {
